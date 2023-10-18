@@ -1,4 +1,4 @@
-const { default: styled } = require('styled-components');
+import styled from 'styled-components';
 
 export const HomePageHeaderNavbarStyled = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ export const HomePageHeaderNavbarStyled = styled.div`
 
     & .navbar-item {
       text-decoration: none;
-      font-weight: 700;
+      font-weight: bold;
       color: #595959;
       position: relative;
       font-size: 20px;
@@ -24,8 +24,8 @@ export const HomePageHeaderNavbarStyled = styled.div`
       &::before {
         content: '';
         position: absolute;
-        bottom: -10px;
-        height: 6px;
+        bottom: -7px;
+        height: 4px;
         width: 0;
         background-color: #2a2a2a;
         border-radius: 50px;

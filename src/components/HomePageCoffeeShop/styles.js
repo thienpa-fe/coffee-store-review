@@ -1,4 +1,4 @@
-const { default: styled } = require('styled-components');
+import styled from 'styled-components';
 
 const HomePageCoffeeShopStyled = styled.div`
   .coffee-shop-thumbnail {
@@ -6,11 +6,12 @@ const HomePageCoffeeShopStyled = styled.div`
     border-radius: 10px;
     overflow: hidden;
 
-    & > img {
+    & > .coffee-store-img {
       width: 100%;
       height: 100%;
       object-position: center;
       object-fit: cover;
+
       &:hover {
         transform: scale(1.3);
         transition: all 0.4s;
@@ -21,7 +22,7 @@ const HomePageCoffeeShopStyled = styled.div`
   .coffee-shop-name {
     margin-top: 30px;
     color: #545454;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
   }
 

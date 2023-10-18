@@ -1,17 +1,17 @@
-const { default: styled } = require('styled-components');
+import styled from 'styled-components';
 
 const HomePageSocialNetworkBar = styled.div`
   display: flex;
   align-items: center;
 
-  .hire-me-btn {
+  .login-btn {
     margin-left: 10px;
     padding: 15px 40px;
     border: none;
     outline: none;
     background: #3d3d3d;
     color: white;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 20px;
     border-radius: 50px;
 
@@ -50,7 +50,7 @@ const HomePageSocialNetworkBar = styled.div`
   @media (max-width: 625px) {
     top: 60px;
 
-    .hire-me-btn {
+    .login-btn {
       margin-left: 0;
       padding: 10px 30px;
       font-size: 16px;
