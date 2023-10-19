@@ -2,7 +2,7 @@ const { default: styled } = require('styled-components');
 
 const DetailsInformationCoffeeShopStyled = styled.div`
   :root {
-    --a: 10px;
+    --margin-top: 10px;
   }
 
   display: flex;
@@ -44,19 +44,19 @@ const DetailsInformationCoffeeShopStyled = styled.div`
   }
 
   .p-text {
-    margin-top: --a;
+    margin-top: --margin-top;
   }
 
   .address {
-    margin-top: --a;
+    margin-top: --margin-top;
   }
 
   .price-css {
-    margin-top: --a;
+    margin-top: --margin-top;
   }
 
   .open-css {
-    margin-top: --a;
+    margin-top: --margin-top;
   }
 `;
 export default DetailsInformationCoffeeShopStyled;
