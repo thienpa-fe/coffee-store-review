@@ -1,16 +1,14 @@
 'use client';
 
-import { Button } from 'antd';
-import styled from 'styled-components';
+import HomePageHeader from '@/components/HomePageHeader';
+import HomePageStyled from './styles';
+import HomePageCoffeeShopsList from '@/components/HomePageCoffeeShopsList';
 
 const HomePage = () => (
-  <>
-    <h1>Component will be here</h1>
-  </>
+  <HomePageStyled>
+    <HomePageHeader />
+    <HomePageCoffeeShopsList />
+  </HomePageStyled>
 );
-const ButtonStyled = styled(Button)`
-  background: teal;
-  color: white;
-`;
 
 export default HomePage;
