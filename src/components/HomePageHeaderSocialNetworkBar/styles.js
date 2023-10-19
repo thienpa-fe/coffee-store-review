@@ -3,13 +3,15 @@ import styled from 'styled-components';
 const HomePageSocialNetworkBar = styled.div`
   display: flex;
   align-items: center;
+  position: relative;
 
-  .login-btn {
+  .login-btn,
+  .logout-btn {
     margin-left: 10px;
     padding: 15px 40px;
     border: none;
     outline: none;
-    background: #3d3d3d;
+    background: rgba(162, 155, 254, 1);
     color: white;
     font-weight: bold;
     font-size: 20px;
