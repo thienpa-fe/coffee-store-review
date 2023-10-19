@@ -1,6 +1,6 @@
-const { default: styled } = require("styled-components");
+import styled from 'styled-components';
 
 const DetailPageStyled = styled.div`
-padding: : 50px 80px;
+  padding: 50px 80px;
 `;
 export default DetailPageStyled;

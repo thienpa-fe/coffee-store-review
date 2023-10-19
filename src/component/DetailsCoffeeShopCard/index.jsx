@@ -1,19 +1,19 @@
-import React from 'react';
+import Image from 'next/image';
 import DetailsCoffeeShopCardStyled from './styles';
 
-const DetailsCoffeeShopCard = () => {
-  return (
-    <DetailsCoffeeShopCardStyled>
-      <section className="coffee-shop-thumbnail">
-        <img
-          src="https://culaochamtour.com/wp-content/uploads/2021/11/cac-quan-cafe-dep-o-nam-phuoc-duy-xuyen-c.jpg"
-          alt="coffee-shop.png"
-        />
-      </section>
-      <h3 className="coffee-shop-name">COFFEE SHOP 'S NAME</h3>
-      <p className="coffee-shop-address">Coffee shop 's address</p>
-    </DetailsCoffeeShopCardStyled>
-  );
-};
+const DetailsCoffeeShopCard = () => (
+  <DetailsCoffeeShopCardStyled>
+    <section className="coffee-shop-thumbnail">
+      <Image
+        src="https://neohouse.vn/wp-content/uploads/2019/07/thiet-ke-quan-cafe-anh-bia.jpg "
+        alt="coffee-shop.png"
+        width={1000}
+        height={1000}
+      />
+    </section>
+    <h3 className="coffee-shop-name">COFFEE SHOPS NAME</h3>
+    <p className="coffee-shop-address">Coffee shops address</p>
+  </DetailsCoffeeShopCardStyled>
+);
 
 export default DetailsCoffeeShopCard;

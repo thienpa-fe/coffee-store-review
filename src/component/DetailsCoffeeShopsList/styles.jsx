@@ -1,4 +1,4 @@
-const { default: styled } = require('styled-components');
+import styled from 'styled-components';
 
 const DetailsCoffeeShopsListStyled = styled.div`
   .card-container {
@@ -9,13 +9,15 @@ const DetailsCoffeeShopsListStyled = styled.div`
     row-gap: 60px;
     padding: 30px;
   }
+
   .zone {
     text-align: center;
   }
+
   .title {
     margin-top: 30px;
     color: #545454;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
   }
 `;
