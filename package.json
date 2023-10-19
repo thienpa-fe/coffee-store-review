@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "open http://localhost:3000  && next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -21,6 +21,7 @@
     "eslint-config-next": "13.5.4",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "react-icons": "^4.11.0"
   }
 }
