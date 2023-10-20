@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server --watch src/data/db.json --port 8000"
   },
   "dependencies": {
     "antd": "^5.10.0",
