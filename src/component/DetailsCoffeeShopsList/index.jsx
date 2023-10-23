@@ -1,7 +1,7 @@
 import DetailsCoffeeShopsListStyled from './styles';
 import DetailsCoffeeShopCard from '../DetailsCoffeeShopCard';
 
-const DetailsCoffeeShopsList = () => (
+const DetailsCoffeeShopsList = ( ) => (
   <DetailsCoffeeShopsListStyled>
     <div className="zone">
       <h2 className="title">HOT COFFE SHOPS</h2>
