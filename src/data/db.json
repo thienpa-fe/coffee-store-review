@@ -1,80 +1,72 @@
 {
-    "user": [
-        {
-            "id": 123,
-            "username": "canhdndeptrai",
-            "password": "canhdeptrai",
-            "loginBy": "twitter",
-            "address": "danang",
-            "age": 20,
-            "email": "canhdeptrai@gmail.com",
-            "fullName": "Canh Tran"
-        },
-        {
-            "id": 275,
-            "username": "thienphamdn",
-            "password": "phamthien",
-            "loginBy": "",
-            "address": "danang",
-            "age": 20,
-            "email": "canhdeptrai@gmail.com",
-            "fullName": "Canh Tran"
-        }
-    ],
-    "coffee": [
-        {
-            "id": 1,
-            "foundedDate": "19-10-2023",
-            "name": "Highland",
-            "images": "'', '', '', ''",
-            "openAt": "7",
-            "closeAt": "22",
-            "rate": 7.4,
-            "address": {
-                "city": "danang",
-                "street": "le duan",
-                "number": 20
-            },
-            "revews": [
-                345,
-                123,
-                254
-            ]
-        },
-        {
-            "id": 2,
-            "foundedDate": "01-01-2001",
-            "name": "The Coffee House",
-            "images": "'', '', '', ''",
-            "openAt": "6",
-            "closeAt": "23",
-            "rate": 7,
-            "address": {
-                "city": "danang",
-                "street": "nguyen van linh",
-                "number": 15
-            },
-            "revews": [
-                12,
-                26,
-                34
-            ]
-        }
-    ],
-    "revews": [
-        {
-            "id": 10,
-            "author": "anonymous",
-            "comment": "Quan cf dep qua",
-            "rate": 8,
-            "reaction": "like"
-        },
-        {
-            "id": 15,
-            "author": "tam phan",
-            "comment": "quan cf ngon qua",
-            "rate": 9,
-            "reaction": "heart"
-        }
-    ]
+  "user": [
+    {
+      "id": 123,
+      "username": "canhdndeptrai",
+      "password": "canhdeptrai",
+      "loginBy": "twitter",
+      "address": "danang",
+      "age": 20,
+      "email": "canhdeptrai@gmail.com",
+      "fullName": "Canh Tran"
+    },
+    {
+      "id": 275,
+      "username": "thienphamdn",
+      "password": "phamthien",
+      "loginBy": "",
+      "address": "danang",
+      "age": 20,
+      "email": "canhdeptrai@gmail.com",
+      "fullName": "Canh Tran"
+    }
+  ],
+  "coffee": [
+    {
+      "id": 1,
+      "foundedDate": "19-10-2023",
+      "name": "Highland",
+      "images": "'', '', '', ''",
+      "openAt": "7",
+      "closeAt": "22",
+      "rate": 7.4,
+      "address": {
+        "city": "danang",
+        "street": "le duan",
+        "number": 20
+      },
+      "reviews": [345, 123, 254]
+    },
+    {
+      "id": 2,
+      "foundedDate": "01-01-2001",
+      "name": "The Coffee House",
+      "images": "'', '', '', ''",
+      "openAt": "6",
+      "closeAt": "23",
+      "rate": 7,
+      "address": {
+        "city": "danang",
+        "street": "nguyen van linh",
+        "number": 15
+      },
+      "reviews": [12, 26, 34]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 10,
+      "author": "anonymous",
+      "comment": "Quan cf dep qua",
+      "rate": 8,
+      "reaction": "like"
+    },
+    {
+      "id": 15,
+      "author": "tam phan",
+      "comment": "quan cf ngon qua",
+      "rate": 9,
+      "reaction": "heart"
+    }
+  ]
 }
