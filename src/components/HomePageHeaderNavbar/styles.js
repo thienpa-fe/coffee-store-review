@@ -38,21 +38,17 @@ export const HomePageHeaderNavbarStyled = styled.div`
     }
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 900px) {
     .navbar-list {
       margin-left: 20px;
       column-gap: 20px;
     }
   }
 
-  @media (max-width: 625px) {
+  @media (max-width: 540px) {
     .navbar-list {
       margin-left: 10px;
       column-gap: 10px;
-
-      & > .navbar-item {
-        font-size: 16px;
-      }
     }
   }
 `;
@@ -61,7 +57,7 @@ export const LogoStyled = styled.img`
   width: 80px;
   height: 80px;
 
-  @media (max-width: 625px) {
+  @media (max-width: 540px) {
     width: 50px;
     height: 50px;
   }

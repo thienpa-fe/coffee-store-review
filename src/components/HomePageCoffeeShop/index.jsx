@@ -1,5 +1,6 @@
 import HomePageCoffeeShopStyled from './styles';
 import Image from 'next/image';
+import { BsHandThumbsUp, BsStar } from 'react-icons/bs';
 
 const HomePageCoffeeShop = () => (
   <HomePageCoffeeShopStyled>
@@ -14,6 +15,16 @@ const HomePageCoffeeShop = () => (
     </section>
     <h3 className="coffee-shop-name">COFFEE SHOP&lsquo;S NAME</h3>
     <p className="coffee-shop-address">Coffee shop&lsquo;s address</p>
+    <div className="interaction-bar">
+      <div className="actions-bar">
+        <BsHandThumbsUp className="like-btn" />
+        <BsStar className="favorite-btn" />
+      </div>
+      <div className="interaction-statistics">
+        <span className="review-number">1,930 reviews</span>
+        <span className="reaction-number">25k reactions</span>
+      </div>
+    </div>
   </HomePageCoffeeShopStyled>
 );
 
