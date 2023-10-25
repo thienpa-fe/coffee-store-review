@@ -3,15 +3,15 @@ import styled from 'styled-components';
 const LoginScreenStyled = styled.div`
   .login-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 12px;
+    justify-content: center;
+    position: relative;
   }
 
   .title {
     font-size: 36px;
     text-align: center;
     font-weight: 900;
+    margin: 20px 0;
   }
 
   .loginform {
@@ -19,29 +19,30 @@ const LoginScreenStyled = styled.div`
   }
 
   .login {
-    width: 420px;
-    margin-top: 30px;
+    width: 100%;
+    max-width: 420px;
   }
 
   .input-box {
-    width: 420px;
-    height: 50px;
-    margin: 20px 0;
+    display: flex;
     position: relative;
   }
 
   .input-box > input {
+    margin: 25px 0;
     width: 100%;
-    height: 100%;
+    padding: 10px 20px 10px 10px;
     border: none;
     outline: none;
     border: 1px solid #808080;
-    border-radius: 12px;
     background: #8080803b;
     font-size: 20px;
-    padding: 5px 5px 5px 10px;
+    border-radius: 12px;
     &:focus {
       border: 2px solid #808080;
+    }
+    @media (max-width: 375px) {
+      margin: 15px 0;
     }
   }
 
@@ -54,21 +55,22 @@ const LoginScreenStyled = styled.div`
 
   .icon {
     position: absolute;
-    right: 20px;
-    top: 45%;
-    transform: translate(-50%);
+    right: 10px;
+    top: 50%;
     font-size: 20px;
+    transform: translate(-50%, -50%);
   }
 
   .btn-login {
     text-align: center;
-    margin-top: 50px;
+    width: 100%;
   }
 
   .btn {
-    width: 50%;
+    margin: 30px 0;
+    width: 100%;
     height: 45px;
-    border-radius: 40px;
+    border-radius: 12px;
     font-size: 20px;
     font-weight: bold;
     color: #333;
@@ -83,7 +85,7 @@ const LoginScreenStyled = styled.div`
   .sign-up {
     display: flex;
     justify-content: flex-end;
-    margin-top: 20px;
+    margin-top: 10px;
     align-items: center;
   }
 
@@ -102,10 +104,11 @@ const LoginScreenStyled = styled.div`
   .icon-login-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
   }
 
   .icon-login {
-    width: 100px;
+    width: 48%;
     height: 60px;
     border-radius: 12px;
     border: none;
@@ -129,10 +132,22 @@ const LoginScreenStyled = styled.div`
     height: 100%;
   }
 
+  .icon-cf {
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    @media (max-width: 375px) {
+      position: absolute;
+      width: 30px;
+      top: 20px;
+    }
+  }
+
   .select {
-    text-align: end;
-    margin-top: 100px;
-    > select {
+    display: flex;
+    justify-content: end;
+    margin-top: 200px;
+    & > select {
       padding: 10px;
       border-radius: 5px;
       border: 2px solid #00000057;
@@ -143,6 +158,10 @@ const LoginScreenStyled = styled.div`
         cursor: pointer;
         scale: 1.1;
       }
+    }
+    @media (max-width: 375px) {
+      margin: 50px;
+      justify-content: center;
     }
   }
 `;
