@@ -21,7 +21,7 @@ const UserLoginInfoStyled = styled.div`
     }
   }
 
-  @media (max-width: 1366px) {
+  @media only screen and (max-width: 1366px) {
     .user-avatar {
       width: 40px;
       height: 40px;
@@ -32,7 +32,7 @@ const UserLoginInfoStyled = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     .user-info {
       display: none;
     }

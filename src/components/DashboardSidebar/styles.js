@@ -19,7 +19,7 @@ const DashboardSidebarStyled = styled.div`
     border-radius: 5px;
   }
 
-  @media (max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     padding: 30px 0 0 5px;
   }
 `;

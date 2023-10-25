@@ -5,12 +5,12 @@ const SidebarFunctionsListStyled = styled.div`
   flex-grow: 2;
   padding: 20px 0;
 
-  @media (max-width: 1024px) {
+  @media only screen and (max-width: 1024px) {
     margin-top: 20px;
     padding: 10px 0;
   }
 
-  @media (max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     display: flex;
     flex-direction: column;
     justify-content: center;

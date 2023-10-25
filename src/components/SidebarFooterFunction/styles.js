@@ -26,7 +26,7 @@ const SidebarFooterFunctionStyled = styled.div`
     cursor: pointer;
   }
 
-  @media (max-width: 1366px) {
+  @media only screen and (max-width: 1366px) {
     margin-top: 5px;
 
     .function-icon {
@@ -38,7 +38,7 @@ const SidebarFooterFunctionStyled = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     .function-name {
       display: none;
     }
