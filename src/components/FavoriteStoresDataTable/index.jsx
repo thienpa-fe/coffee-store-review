@@ -10,6 +10,7 @@ const FavoriteStoresDataTable = () => (
       pagination={{
         defaultPageSize: 10,
         position: ['topRight'],
+        showSizeChanger: false,
       }}
       bordered={true}
     />

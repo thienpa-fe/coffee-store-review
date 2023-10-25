@@ -21,6 +21,8 @@ const DashboardSidebarStyled = styled.div`
 
   @media only screen and (max-width: 375px) {
     padding: 30px 0 0 5px;
+    background: white;
+    z-index: 1;
   }
 `;
 
