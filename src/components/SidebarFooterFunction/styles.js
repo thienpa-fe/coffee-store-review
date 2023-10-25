@@ -17,10 +17,6 @@ const SidebarFooterFunctionStyled = styled.div`
   .function-name {
     font-size: 20px;
     font-weight: bold;
-
-    @media (max-width: 800px) {
-      display: none;
-    }
   }
 
   &:hover,
@@ -28,6 +24,28 @@ const SidebarFooterFunctionStyled = styled.div`
     background: var(--primary-color);
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 1366px) {
+    margin-top: 5px;
+
+    .function-icon {
+      font-size: 30px;
+    }
+
+    .function-name {
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .function-name {
+      display: none;
+    }
+
+    .function-icon {
+      margin-right: 0px;
+    }
   }
 `;
 
