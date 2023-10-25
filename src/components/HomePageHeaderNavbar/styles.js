@@ -38,7 +38,7 @@ export const HomePageHeaderNavbarStyled = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     .navbar-list {
       margin-left: 20px;
       column-gap: 20px;
@@ -54,7 +54,7 @@ export const HomePageHeaderNavbarStyled = styled.div`
 export const LogoStyled = styled.img`
   height: 80px;
 
-  @media (max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     height: 50px;
   }
 `;

@@ -50,14 +50,14 @@ const LoginButtonStyled = styled.div`
     }
   }
 
-  @media (max-width: 1024px) {
+  @media only screen and (max-width: 1024px) {
     .login-btn {
       padding: 10px 10px;
       font-size: 16px;
     }
   }
 
-  @media (max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     .login-btn {
       padding: 5px 10px;
       font-size: 16px;

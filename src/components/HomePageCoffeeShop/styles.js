@@ -68,13 +68,13 @@ const HomePageCoffeeShopStyled = styled.div`
     cursor: pointer;
   }
 
-  @media (max-width: 1024px) {
+  @media only screen and (max-width: 1024px) {
     .coffee-shop-thumbnail {
       height: 200px;
     }
   }
 
-  @media (max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     .coffee-shop-thumbnail {
       height: 220px;
     }
