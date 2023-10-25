@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const HomePageCoffeeShopStyled = styled.div`
   --primary-padding: 0 10px;
   --primary-border: 2px solid #80808070;
+  --font-size-interaction-btn: 22px;
 
   border: var(--primary-border);
   border-radius: 10px;
@@ -10,7 +11,7 @@ const HomePageCoffeeShopStyled = styled.div`
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   .coffee-shop-thumbnail {
-    height: 300px;
+    height: 340px;
     border-radius: 8px 8px 0 0;
     overflow: hidden;
     border-bottom: var(--primary-border);
@@ -50,12 +51,12 @@ const HomePageCoffeeShopStyled = styled.div`
     padding: var(--primary-padding);
 
     .like-btn {
-      font-size: 22px;
+      font-size: var(--font-size-interaction-btn);
       margin-right: 5px;
     }
 
     .favorite-btn {
-      font-size: 22px;
+      font-size: var(--font-size-interaction-btn);
     }
 
     .reaction-number {
@@ -65,6 +66,18 @@ const HomePageCoffeeShopStyled = styled.div`
 
   &:hover {
     cursor: pointer;
+  }
+
+  @media (max-width: 1024px) {
+    .coffee-shop-thumbnail {
+      height: 200px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .coffee-shop-thumbnail {
+      height: 220px;
+    }
   }
 `;
 

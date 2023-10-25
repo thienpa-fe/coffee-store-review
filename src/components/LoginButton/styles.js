@@ -20,16 +20,6 @@ const LoginButtonStyled = styled.div`
       transform: scale(1.1);
       transition: all 0.2s;
     }
-
-    @media (max-width: 800px) {
-      padding: 10px 20px;
-    }
-
-    @media (max-width: 540px) {
-      margin-left: 0;
-      padding: 10px 30px;
-      font-size: 16px;
-    }
   }
 
   .user-login-info {
@@ -60,21 +50,37 @@ const LoginButtonStyled = styled.div`
     }
   }
 
-  @media (max-width: 1200px) {
-    .social-network-item {
-      margin-right: 15px;
+  @media (max-width: 1024px) {
+    .login-btn {
+      padding: 10px 10px;
+      font-size: 16px;
     }
   }
 
-  @media (max-width: 800px) {
-    position: absolute;
-    right: 0px;
-    top: 70px;
-  }
+  @media (max-width: 375px) {
+    .login-btn {
+      padding: 5px 10px;
+      font-size: 16px;
+      position: absolute;
+      right: 0;
+      top: -30px;
+    }
 
-  @media (max-width: 540px) {
-    top: 47px;
-    right: 0;
+    .user-login-info {
+      position: absolute;
+      right: 0;
+      top: -30px;
+
+      & > .avatar-user-login {
+        width: 25px;
+        height: 25px;
+      }
+
+      & > .user-name {
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
   }
 `;
 

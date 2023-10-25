@@ -38,27 +38,23 @@ export const HomePageHeaderNavbarStyled = styled.div`
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 375px) {
     .navbar-list {
       margin-left: 20px;
       column-gap: 20px;
-    }
-  }
 
-  @media (max-width: 540px) {
-    .navbar-list {
-      margin-left: 10px;
-      column-gap: 10px;
+      & .navbar-item {
+        font-weight: bold;
+        font-size: 16px;
+      }
     }
   }
 `;
 
 export const LogoStyled = styled.img`
-  width: 80px;
   height: 80px;
 
-  @media (max-width: 540px) {
-    width: 50px;
+  @media (max-width: 375px) {
     height: 50px;
   }
 `;
