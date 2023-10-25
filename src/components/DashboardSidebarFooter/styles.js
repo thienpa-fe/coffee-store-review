@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 const DashboardSidebarFooterStyled = styled.div`
-  padding: 5px 10px;
-  position: absolute;
-  bottom: 70px;
+  padding: 5px 0px;
+  bottom: 0;
   left: 0;
-  width: -webkit-fill-available;
   border-top: 1px solid gray;
+  width: 100%;
 `;
 
 export default DashboardSidebarFooterStyled;
