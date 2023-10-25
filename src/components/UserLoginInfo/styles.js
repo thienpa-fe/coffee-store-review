@@ -16,12 +16,29 @@ const UserLoginInfoStyled = styled.div`
   .user-info {
     line-height: 30px;
 
-    & .user-name {
+    & > .user-name {
       font-weight: bold;
     }
+  }
 
-    @media (max-width: 800px) {
+  @media (max-width: 1366px) {
+    .user-avatar {
+      width: 40px;
+      height: 40px;
+    }
+
+    .user-info {
+      line-height: 20px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .user-info {
       display: none;
+    }
+
+    .user-avatar {
+      margin-right: 0;
     }
   }
 `;
