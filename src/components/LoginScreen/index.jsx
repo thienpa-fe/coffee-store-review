@@ -6,7 +6,6 @@ import { BiSolidUser, BiSolidLockAlt } from 'react-icons/bi';
 
 const LoginScreen = () => (
   <LoginScreenStyled>
-    <LogoStyled src="/images/cf-icon.png" alt="logo.png" />
     <div className="login-container">
       <form className="login">
         <h1 className="title">LOGIN</h1>
@@ -34,6 +33,7 @@ const LoginScreen = () => (
         </div>
       </form>
     </div>
+    <LogoStyled src="/images/cf-icon.png" alt="logo.png" className="icon-cf" />
     <div className="select">
       <select name="page" id="page">
         <option value="homepage">Homepage</option>
