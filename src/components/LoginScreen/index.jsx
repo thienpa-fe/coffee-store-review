@@ -1,45 +1,80 @@
+import Image from 'next/image';
 import { LogoStyled } from '../HomePageHeaderNavbar/styles';
 import LoginScreenStyled from './styles';
-import { AiFillFacebook } from 'react-icons/ai';
-import { SiGmail } from 'react-icons/si';
-import { BiSolidUser, BiSolidLockAlt } from 'react-icons/bi';
+import { DownOutlined } from '@ant-design/icons';
+import { Button, Dropdown, message, Space } from 'antd';
+
+const handleMenuClick = (e) => {
+  message.info('Click on menu item.');
+};
+
+const items = [
+  {
+    label: 'Dashboard',
+    key: '1',
+  },
+];
+
+const menuProps = {
+  items,
+  onClick: handleMenuClick,
+};
 
 const LoginScreen = () => (
   <LoginScreenStyled>
     <div className="login-container">
+      <h1 className="title">LOGIN</h1>
       <form className="login">
-        <h1 className="title">LOGIN</h1>
         <div className="input-box">
           <input type="text" placeholder="username" />
-          <BiSolidUser className="icon" />
         </div>
         <div className="input-box">
           <input type="password" placeholder="password" />
-          <BiSolidLockAlt className="icon" />
         </div>
-        <div className="btn-login">
-          <button className="btn">Login</button>
-        </div>
-        <div className="sign-up">
-          <p> New user ?</p> <button className="btn-sign-up">Sign up</button>
+        <Button type="primary" block>
+          Login
+        </Button>
+        <div className="row-sign-up">
+          <p> New user ?</p>
+          <Button type="link">
+            <ins>Sign up</ins>
+          </Button>
         </div>
         <div className="icon-login-container">
-          <button className="icon-login">
-            <AiFillFacebook className="icon-click" />
-          </button>
-          <button className="icon-login">
-            <SiGmail className="icon-click" />
-          </button>
+          <Button>
+            <Image
+              className="icon8"
+              width="60"
+              height="60"
+              src="https://img.icons8.com/color/96/facebook.png"
+              alt="facebook"
+            />
+          </Button>
+          <Button>
+            <Image
+              className="icon8"
+              width="60"
+              height="60"
+              src="https://img.icons8.com/color/48/gmail-new.png"
+              alt="gmail-new"
+            />
+          </Button>
+        </div>
+        <div className="abc">
+          <Space wrap>
+            <Dropdown menu={menuProps}>
+              <Button>
+                <Space>
+                  Hompage
+                  <DownOutlined />
+                </Space>
+              </Button>
+            </Dropdown>
+          </Space>
         </div>
       </form>
     </div>
     <LogoStyled src="/images/cf-icon.png" alt="logo.png" className="icon-cf" />
-    <div className="select">
-      <select name="page" id="page">
-        <option value="homepage">Homepage</option>
-        <option value="page">Dashboard</option>
-      </select>
-    </div>
   </LoginScreenStyled>
 );
 
