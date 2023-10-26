@@ -1,6 +1,6 @@
 import HomePageCoffeeShopStyled from './styles';
 import Image from 'next/image';
-import { BsHandThumbsUp, BsStar } from 'react-icons/bs';
+import { BiSolidLike, BiSolidStar } from 'react-icons/bi';
 
 const HomePageCoffeeShop = () => (
   <HomePageCoffeeShopStyled>
@@ -17,8 +17,8 @@ const HomePageCoffeeShop = () => (
     <p className="coffee-shop-address">Coffee shop&lsquo;s address</p>
     <div className="interaction-bar">
       <div className="actions-bar">
-        <BsHandThumbsUp className="like-btn" />
-        <BsStar className="favorite-btn" />
+        <BiSolidLike className="like-btn" />
+        <BiSolidStar className="favorite-btn" />
       </div>
       <div className="interaction-statistics">
         <span className="review-number">1,930 reviews</span>

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const HomePageCoffeeShopStyled = styled.div`
   --primary-padding: 0 10px;
   --primary-border: 2px solid #80808070;
-  --font-size-interaction-btn: 22px;
 
   border: var(--primary-border);
   border-radius: 10px;
@@ -50,13 +49,18 @@ const HomePageCoffeeShopStyled = styled.div`
     align-items: center;
     padding: var(--primary-padding);
 
-    .like-btn {
-      font-size: var(--font-size-interaction-btn);
-      margin-right: 5px;
+    .like-btn,
+    .favorite-btn {
+      font-size: 22px;
+
+      &:hover {
+        transform: scale(1.3);
+        transition: all 0.2s;
+      }
     }
 
-    .favorite-btn {
-      font-size: var(--font-size-interaction-btn);
+    .like-btn {
+      margin-right: 10px;
     }
 
     .reaction-number {

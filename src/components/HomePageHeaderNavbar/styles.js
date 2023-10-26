@@ -52,7 +52,9 @@ export const HomePageHeaderNavbarStyled = styled.div`
 `;
 
 export const LogoStyled = styled.img`
+  width: 80px;
   height: 80px;
+  object-fit: contain;
 
   @media only screen and (max-width: 375px) {
     height: 50px;
