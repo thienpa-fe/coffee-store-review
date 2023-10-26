@@ -1,6 +1,6 @@
 import React from 'react';
 import SelectInputCoffeeStoreStyled from './styles';
-import { Select } from 'antd';
+import { Select, Tabs } from 'antd';
 import PropTypes from 'prop-types';
 import storeDataTest from '@/data/StoresDataTest';
 
@@ -9,10 +9,18 @@ const SelectInputCoffeeStore = ({ isSelected, setIsSelected }) => {
     setIsSelected(true);
   };
 
+  const handleClear = () => {
+    setIsSelected(false);
+  };
+
   return (
     <SelectInputCoffeeStoreStyled>
       <Select
+        // mode="tags"
+        allowClear
+        autoClearSearchValue
         onSelect={handleSelect}
+        onClear={handleClear}
         showSearch
         style={{
           width: 200,
