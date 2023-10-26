@@ -40,7 +40,7 @@ export const HomePageHeaderNavbarStyled = styled.div`
 
   @media only screen and (max-width: 375px) {
     .navbar-list {
-      margin-left: 20px;
+      margin-left: 0;
       column-gap: 20px;
 
       & .navbar-item {

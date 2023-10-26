@@ -1,21 +1,12 @@
 import styled from 'styled-components';
 
 const HomePageCoffeeShopStyled = styled.div`
-  --primary-padding: 0 10px;
-  --primary-border: 2px solid #80808070;
-
-  border: var(--primary-border);
-  border-radius: 10px;
-  padding-bottom: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-  .coffee-shop-thumbnail {
-    height: 340px;
-    border-radius: 8px 8px 0 0;
+  .ant-card-cover {
+    height: 300px;
     overflow: hidden;
-    border-bottom: var(--primary-border);
+    border-radius: 10px 10px 0 0;
 
-    & > .coffee-store-img {
+    > .coffee-store-img {
       width: 100%;
       height: 100%;
       object-position: center;
@@ -26,20 +17,6 @@ const HomePageCoffeeShopStyled = styled.div`
         transition: all 0.4s;
       }
     }
-  }
-
-  .coffee-shop-name {
-    margin-top: 30px;
-    color: #545454;
-    font-weight: bold;
-    font-size: 18px;
-    padding: var(--primary-padding);
-  }
-
-  .coffee-shop-address {
-    margin-top: 15px;
-    color: #a3a3a3;
-    padding: var(--primary-padding);
   }
 
   .interaction-bar {
@@ -72,14 +49,8 @@ const HomePageCoffeeShopStyled = styled.div`
     cursor: pointer;
   }
 
-  @media only screen and (max-width: 1024px) {
-    .coffee-shop-thumbnail {
-      height: 200px;
-    }
-  }
-
   @media only screen and (max-width: 375px) {
-    .coffee-shop-thumbnail {
+    .ant-card-cover {
       height: 220px;
     }
   }
