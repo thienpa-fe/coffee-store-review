@@ -1,103 +1,121 @@
 import styled from 'styled-components';
 
 const LoginScreenStyled = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
   .login-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    margin-top: 30px;
   }
 
   .title {
-    font-size: 36px;
-    text-align: center;
+    font-size: 32px;
     font-weight: 900;
     margin: 20px 0;
-  }
-
-  .loginform {
-    text-align: center;
+    @media only screen and (max-width: 1024px) {
+      margin: 15px 0;
+      font-size: 30px;
+    }
   }
 
   .login {
-    width: 100%;
-    max-width: 420px;
+    margin-top: 40px;
+    @media only screen and (max-width: 1366px) {
+      margin-top: 15px;
+    }
   }
 
   .input-box {
     display: flex;
-    position: relative;
   }
 
   .input-box > input {
-    margin: 25px 0;
     width: 100%;
-    padding: 10px 20px 10px 10px;
-    border: none;
+    height: 60px;
+    margin: 30px 0;
+    padding: 5px;
     outline: none;
-    border: 1px solid #808080;
-    background: #8080803b;
-    font-size: 20px;
     border-radius: 12px;
+    font-size: 26px;
+    border: 1px solid #808080;
     &:focus {
-      border: 2px solid #808080;
+      border: 2px solid #333333a3;
     }
-    @media (max-width: 375px) {
-      margin: 15px 0;
+    @media only screen and (max-width: 1366px) {
+      height: 50px;
+      margin-top: 15px;
+    }
+    @media only screen and (max-width: 1024px) {
+      margin-top: 10px;
+      height: 40px;
+      border-radius: 6px;
     }
   }
 
   ::-webkit-input-placeholder {
     color: #808080;
     font-size: 20px;
-    width: 100%;
     font-style: italic;
   }
 
-  .icon {
-    position: absolute;
-    right: 10px;
-    top: 50%;
+  .ant-btn-primary {
+    margin-top: 60px;
+    height: 60px;
+    color: black;
+    border: 2px solid #808080;
     font-size: 20px;
-    transform: translate(-50%, -50%);
-  }
-
-  .btn-login {
-    text-align: center;
-    width: 100%;
-  }
-
-  .btn {
-    margin: 30px 0;
-    width: 100%;
-    height: 45px;
-    border-radius: 12px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    text-align: center;
-    transition: all, 0.5s;
-    &:hover {
-      cursor: pointer;
-      transform: scale(1.1);
+    @media only screen and (max-width: 1366px) {
+      margin-top: 30px;
+    }
+    @media only screen and (max-width: 1024px) {
+      margin-top: 20px;
     }
   }
 
-  .sign-up {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
+  .ant-btn-link {
     align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
   }
 
-  .btn-sign-up {
-    border: none;
-    outline: none;
-    color: blue;
-    font-size: 16px;
-    background: unset;
-    &:hover {
-      text-decoration: underline;
-      cursor: pointer;
+  .row-sign-up {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-top: 10px;
+    @media only screen and (max-width: 1366px) {
+      margin-top: 0;
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 1024px) {
+      margin-top: 0px;
+      font-size: 16px;
+    }
+    @media only screen and (max-width: 375px) {
+      margin-top: 0;
+      font-size: 16px;
+    }
+  }
+
+  Button > ins {
+    font-size: 20px;
+    @media only screen and (max-width: 1366px) {
+      margin-top: 0;
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 1024px) {
+      margin-top: 0;
+      font-size: 16px;
+    }
+    @media only screen and (max-width: 375px) {
+      margin-top: 0;
+      font-size: 16px;
     }
   }
 
@@ -105,13 +123,25 @@ const LoginScreenStyled = styled.div`
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    @media only screen and (max-width: 1366px) {
+      margin-top: 30px;
+    }
+    @media only screen and (max-width: 1024px) {
+      margin-top: 0;
+    }
+    @media only screen and (max-width: 375px) {
+      margin-top: 30px;
+    }
   }
 
-  .icon-login {
+  .login > div > .ant-btn-default {
+    position: relative;
+    display: flex;
+    justify-content: center;
     width: 48%;
     height: 60px;
     border-radius: 12px;
-    border: none;
+    border: 2px solid #808080;
     outline: none;
     margin-top: 15px;
     transition: all, 0.5s;
@@ -119,50 +149,49 @@ const LoginScreenStyled = styled.div`
       cursor: pointer;
       transform: scale(1.1);
     }
-    &:first-child {
-      color: blue;
+    @media only screen and (max-width: 1366px) {
+      margin-top: 10px;
     }
-    &:last-child {
-      color: red;
+    @media only screen and (max-width: 1024px) {
+      margin-top: 5;
+    }
+    @media only screen and (max-width: 375px) {
+      margin-top: 0;
     }
   }
 
-  .icon-click {
-    width: 100%;
-    height: 100%;
+  .icon8 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .icon-cf {
-    width: 50px;
+    object-fit: contain;
     position: absolute;
-    top: 50px;
+    top: 0;
+    left: 0;
     @media (max-width: 375px) {
       position: absolute;
-      width: 30px;
-      top: 20px;
+      object-fit: contain;
+      top: 0;
+      left: 0;
     }
   }
 
-  .select {
-    display: flex;
-    justify-content: end;
-    margin-top: 200px;
-    & > select {
-      padding: 10px;
-      border-radius: 5px;
-      border: 2px solid #00000057;
-      transition: all, 0.5s;
-      background: #1158f633;
-      &:hover {
-        text-decoration: underline;
-        cursor: pointer;
-        scale: 1.1;
-      }
+  .abc {
+    margin-top: 250px;
+    text-align: end;
+    @media only screen and (max-width: 1366px) {
+      margin-top: 90px;
     }
-    @media (max-width: 375px) {
-      margin: 50px;
-      justify-content: center;
+    @media only screen and (max-width: 1024px) {
+      margin-top: 50px;
     }
+  }
+  .ant-dropdown-trigger {
+    position: absolute;
+    right: 0;
   }
 `;
 
