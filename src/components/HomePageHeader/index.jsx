@@ -1,11 +1,11 @@
 import { HomePageHeaderStyled } from './styles';
 import HomePageHeaderNavbar from '../HomePageHeaderNavbar';
-import HomePageSocialNetworkBar from '../HomePageHeaderSocialNetworkBar';
+import LoginButton from '../LoginButton';
 
 const HomePageHeader = () => (
   <HomePageHeaderStyled>
     <HomePageHeaderNavbar />
-    <HomePageSocialNetworkBar />
+    <LoginButton />
   </HomePageHeaderStyled>
 );
 
