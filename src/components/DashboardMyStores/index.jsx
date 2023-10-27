@@ -4,7 +4,7 @@ import DashboardMyStoresStyled from './styles';
 
 const DashboardMyStores = () => (
   <DashboardMyStoresStyled>
-    <Title content="Wellcomback, username!" />
+    <Title content="Welcomeback, username!" />
     <MyStoresDataTable />
   </DashboardMyStoresStyled>
 );
