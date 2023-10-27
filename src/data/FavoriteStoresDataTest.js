@@ -7,11 +7,13 @@ export const columns = [
     dataIndex: 'date',
     key: 'date',
     align: 'center',
+    width: 120,
   },
   {
     title: 'Store name',
     dataIndex: 'storeName',
     key: 'storeName',
+    width: '33%',
   },
   {
     title: 'Address',
@@ -22,6 +24,7 @@ export const columns = [
     title: 'Owner',
     dataIndex: 'owner',
     key: 'owner',
+    width: '15%',
   },
   {
     title: 'Action',
@@ -34,6 +37,7 @@ export const columns = [
       </Space>
     ),
     align: 'center',
+    width: 120,
   },
 ];
 

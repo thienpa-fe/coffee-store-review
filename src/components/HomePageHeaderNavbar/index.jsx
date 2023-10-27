@@ -7,22 +7,17 @@ const HomePageHeaderNavbar = () => (
     <ul className="navbar-list">
       <li>
         <Link href="/" className="navbar-item">
-          HOME
+          Home
         </Link>
       </li>
       <li>
         <Link href="/" className="navbar-item">
-          ABOUT
+          Contact Us
         </Link>
       </li>
       <li>
         <Link href="/" className="navbar-item">
-          SERVICES
-        </Link>
-      </li>
-      <li>
-        <Link href="/" className="navbar-item">
-          CONTACT
+          Activities
         </Link>
       </li>
     </ul>

@@ -15,12 +15,14 @@ const DashboardSidebarStyled = styled.div`
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: rgba(43, 203, 186, 1);
+    background-color: #6b6b6b;
     border-radius: 5px;
   }
 
   @media only screen and (max-width: 375px) {
     padding: 30px 0 0 5px;
+    background: white;
+    z-index: 1;
   }
 `;
 
