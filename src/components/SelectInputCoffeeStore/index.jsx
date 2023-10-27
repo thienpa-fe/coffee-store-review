@@ -16,7 +16,6 @@ const SelectInputCoffeeStore = ({ isSelected, setIsSelected }) => {
   return (
     <SelectInputCoffeeStoreStyled>
       <Select
-        // mode="tags"
         allowClear
         autoClearSearchValue
         onSelect={handleSelect}
