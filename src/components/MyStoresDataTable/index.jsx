@@ -1,9 +1,8 @@
 import { Button, Table } from 'antd';
 import MyStoresDataTableStyled from './styles';
-import { columns, data } from '@/data/FavoriteStoresDataTest';
-import { SearchOutlined } from '@ant-design/icons';
 import { Input, Space } from 'antd';
 import { BsSearch } from 'react-icons/bs';
+import { columns, data } from '@/data/MyStoresDataTest';
 
 const MyStoresDataTable = () => (
   <MyStoresDataTableStyled>
