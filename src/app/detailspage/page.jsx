@@ -1,7 +1,7 @@
 'use client';
 import DetailPageStyled from './styles';
-import DetailsInformationCoffeeShop from '@/component/DetailsInformationCoffeeShop';
-import DetailsCoffeeShopsList from '@/component/DetailsCoffeeShopsList';
+import DetailsInformationCoffeeShop from '@/components/DetailsInformationCoffeeShop';
+import DetailsCoffeeShopsList from '@/components/DetailsCoffeeShopsList';
 
 const DetailsPage = () => (
   <DetailPageStyled>
