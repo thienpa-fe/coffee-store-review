@@ -1,5 +1,5 @@
 import { Space } from 'antd';
-import { FaTrashCan } from 'react-icons/fa6';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 export const columns = [
   {
@@ -32,7 +32,7 @@ export const columns = [
     render: (_, record) => (
       <Space size="middle">
         <a>
-          <FaTrashCan />
+          <FaArrowUpRightFromSquare />
         </a>
       </Space>
     ),

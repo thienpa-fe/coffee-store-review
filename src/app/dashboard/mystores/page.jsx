@@ -2,12 +2,12 @@
 
 import DashboardSidebar from '@/components/DashboardSidebar';
 import DashboardStyled from './styles';
-import DashboardFavoriteStores from '@/components/DashboardFavoriteStores';
+import DashboardMyStores from '@/components/DashboardMyStores';
 
 const Dashboard = () => (
   <DashboardStyled>
     <DashboardSidebar />
-    <DashboardFavoriteStores />
+    <DashboardMyStores />
   </DashboardStyled>
 );
 
