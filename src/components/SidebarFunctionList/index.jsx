@@ -9,28 +9,28 @@ import Link from 'next/link';
 
 const SidebarFunctionsList = () => (
   <SidebarFunctionsListStyled>
-    <Link href="/dashboard/mystores">
+    <Link href="/dashboard/mystores" className="nav">
       <SidebarFunction
         functionIcon={<HiBuildingStorefront />}
         content="My Stores"
       />
     </Link>
-    <Link href="/dashboard">
+    <Link href="/dashboard" className="nav">
       <SidebarFunction
         functionIcon={<HiMiniStar />}
         content="Favorite Stores"
       />
     </Link>
-    <Link href="/dashboard/reviews">
+    <Link href="/dashboard/reviews" className="nav">
       <SidebarFunction functionIcon={<MdRateReview />} content="Reviews" />
     </Link>
-    <Link href="/dashboard/myProfile">
+    <Link href="/dashboard/myProfile" className="nav">
       <SidebarFunction functionIcon={<BsPersonCircle />} content="My Profile" />
     </Link>
-    <Link href="/dashboard/statistic">
+    <Link href="/dashboard/statistic" className="nav">
       <SidebarFunction functionIcon={<LiaChartBar />} content="Statistic" />
     </Link>
-    <Link href="/dashboard/shareurl">
+    <Link href="/dashboard/shareurl" className="nav">
       <SidebarFunction functionIcon={<FaShare />} content="Share" />
     </Link>
   </SidebarFunctionsListStyled>
