@@ -7,45 +7,37 @@ const ImageCarouselStyled = styled.div`
   margin-top: 30px;
 
   .ant-carousel {
-    height: 400px;
-    border-radius: 10px;
-    overflow: hidden;
-
     .slick-slider {
-      height: var(--height-width-carousel-child);
-
       & > .slick-dots > li {
         width: 12px;
         height: 12px;
 
         & > button {
-          width: 100%;
-          height: 100%;
+          width: var(--height-width-carousel-child);
+          height: var(--height-width-carousel-child);
           border-radius: 50%;
         }
       }
+    }
 
-      .slick-list {
-        height: var(--height-width-carousel-child);
+    .slick-list {
+      border-radius: 10px;
 
-        .slick-track {
-          height: var(--height-width-carousel-child);
+      .slick-track {
+        height: 400px;
 
-          .slick-active {
-            & > div {
+        .slick-active {
+          & > div {
+            height: var(--height-width-carousel-child);
+
+            & > .ant-image {
+              width: var(--height-width-carousel-child);
               height: var(--height-width-carousel-child);
 
-              & > .ant-image {
-                width: var(--height-width-carousel-child);
+              & > .ant-image-img {
                 height: var(--height-width-carousel-child);
-
-                & > .ant-image-img {
-                  width: var(--height-width-carousel-child);
-                  height: var(--height-width-carousel-child);
-                  object-fit: cover;
-                  object-position: center;
-                  border-radius: 10px;
-                }
+                object-fit: cover;
+                object-position: center;
               }
             }
           }
