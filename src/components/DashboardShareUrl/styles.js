@@ -39,6 +39,8 @@ const DashboardShareUrlStyled = styled.div`
 
     &:hover {
       cursor: pointer;
+      background-color: #14b4c8;
+      color: black;
     }
   }
 

@@ -11,8 +11,17 @@ const DashboardSidebarFooterStyled = styled.div`
     color: black;
   }
 
+  .YbevK {
+    &:hover {
+      background-color: #14b4c8;
+    }
+  }
+
   .sc-irLvoH {
     color: black;
+    &:hover {
+      background-color: #14b4c8;
+    }
   }
 `;
 

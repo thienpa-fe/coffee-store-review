@@ -75,6 +75,7 @@ const LoginScreenStyled = styled.div`
     @media only screen and (max-width: 1024px) {
       margin-top: 20px;
     }
+    background-color: #14b4c8;
   }
 
   .ant-btn-link {
@@ -179,7 +180,7 @@ const LoginScreenStyled = styled.div`
     }
   }
 
-  .abc {
+  .btn {
     margin-top: 250px;
     text-align: end;
     @media only screen and (max-width: 1366px) {
@@ -192,6 +193,7 @@ const LoginScreenStyled = styled.div`
   .ant-dropdown-trigger {
     position: absolute;
     right: 0;
+    background-color: #14b4c8;
   }
 `;
 
