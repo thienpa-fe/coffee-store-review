@@ -2,11 +2,12 @@ import React from 'react';
 import { Tabs } from 'antd';
 import StatisticTabsStyled from './styles';
 import CoffeeStoreStatistic from '../CoffeeStoreStatistic';
+import ReviewsStatistic from '../ReviewsStatistic';
 
 const StatisticTabs = () => {
   const statisticTabs = [
     { tabName: 'Coffee Store', data: <CoffeeStoreStatistic /> },
-    { tabName: 'Reviews', data: 'content reviews' },
+    { tabName: 'Reviews', data: <ReviewsStatistic /> },
     { tabName: 'Reactions', data: 'content Reactions' },
   ];
 
