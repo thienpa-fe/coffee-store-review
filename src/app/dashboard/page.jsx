@@ -2,11 +2,13 @@
 
 import DashboardSidebar from '@/components/DashboardSidebar';
 import DashboardStyled from './styles';
+import DashboardFavoriteStores from '@/components/DashboardFavoriteStores';
+import DashboardLayout from './layout';
 
-const Dasboard = () => (
-  <DashboardStyled>
-    <DashboardSidebar />
-  </DashboardStyled>
+const Dashboard = () => (
+  <DashboardLayout>
+    <DashboardStyled></DashboardStyled>
+  </DashboardLayout>
 );
 
-export default Dasboard;
+export default Dashboard;

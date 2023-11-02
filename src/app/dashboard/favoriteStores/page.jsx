@@ -6,7 +6,6 @@ import FavoriteStoresStyled from './styles';
 
 const FavoriteStores = () => (
   <FavoriteStoresStyled>
-    <DashboardSidebar />
     <DashboardFavoriteStores />
   </FavoriteStoresStyled>
 );

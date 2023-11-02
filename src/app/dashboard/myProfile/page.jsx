@@ -3,10 +3,6 @@
 import DashboardSidebar from '@/components/DashboardSidebar';
 import MyProfileStyled from './styles';
 
-const MyProfile = () => (
-  <MyProfileStyled>
-    <DashboardSidebar />
-  </MyProfileStyled>
-);
+const MyProfile = () => <MyProfileStyled></MyProfileStyled>;
 
 export default MyProfile;
