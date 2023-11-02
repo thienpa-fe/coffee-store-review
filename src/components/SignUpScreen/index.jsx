@@ -1,6 +1,6 @@
 import SignUpScreenStyled from './styles';
 import { LogoStyled } from '../HomePageHeaderNavbar/styles';
-import { Button } from 'antd';
+import { Button, ConfigProvider } from 'antd';
 import Image from 'next/image';
 
 const SignUpScreen = () => (
@@ -43,9 +43,18 @@ const SignUpScreen = () => (
             <input type="text" placeholder="Address" />
           </div>
         </div>
-        <Button type="primary" block>
-          Create account
-        </Button>
+        <ConfigProvider
+          theme={{
+            token: {
+              colorPrimary: '#14b4c8',
+            },
+          }}
+        >
+          <Button type="primary" block>
+            Create account
+          </Button>
+        </ConfigProvider>
+
         <div className="row-sign-up">
           <p> New user ?</p>
           <Button type="link">

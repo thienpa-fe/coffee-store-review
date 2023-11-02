@@ -37,17 +37,6 @@ const MyStoresDataTableStyled = styled.div`
     border: 2px solid #808080;
   }
 
-  .ant-btn-default {
-    &:hover {
-      background-color: #14b4c8;
-    }
-  }
-
-  .ant-btn > span {
-    display: inline-block;
-    color: black;
-  }
-
   .ant-table-thead > tr > .ant-table-cell {
     text-align: center;
   }

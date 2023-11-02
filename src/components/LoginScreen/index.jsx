@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { LogoStyled } from '../HomePageHeaderNavbar/styles';
 import LoginScreenStyled from './styles';
 import { DownOutlined } from '@ant-design/icons';
-import { Button, Dropdown, message, Space } from 'antd';
+import { Button, Dropdown, message, Space, ConfigProvider } from 'antd';
 
 const handleMenuClick = (e) => {
   message.info('Click on menu item.');
@@ -31,9 +31,18 @@ const LoginScreen = () => (
         <div className="input-box">
           <input type="password" placeholder="password" />
         </div>
-        <Button type="primary" block>
-          Login
-        </Button>
+        <ConfigProvider
+          theme={{
+            token: {
+              colorPrimary: '#14b4c8',
+            },
+          }}
+        >
+          <Button type="primary" block>
+            Login
+          </Button>
+        </ConfigProvider>
+
         <div className="row-sign-up">
           <p> New user ?</p>
           <Button type="link">

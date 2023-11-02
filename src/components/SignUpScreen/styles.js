@@ -102,7 +102,6 @@ const SignUpScreenStyled = styled.div`
       font-size: 16px;
       height: 40px;
     }
-    background-color: #14b4c8;
   }
 
   .ant-btn-link {

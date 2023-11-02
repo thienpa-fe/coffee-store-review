@@ -193,7 +193,6 @@ const LoginScreenStyled = styled.div`
   .ant-dropdown-trigger {
     position: absolute;
     right: 0;
-    background-color: #14b4c8;
   }
 `;
 
