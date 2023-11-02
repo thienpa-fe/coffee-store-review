@@ -15,7 +15,7 @@ const SidebarFunctionsList = () => (
         content="My Stores"
       />
     </Link>
-    <Link href="/dashboard" className="nav">
+    <Link href="/dashboard/favoriteStores" className="nav">
       <SidebarFunction
         functionIcon={<HiMiniStar />}
         content="Favorite Stores"

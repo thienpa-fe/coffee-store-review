@@ -9,6 +9,7 @@ const DashboardSidebarFooterStyled = styled.div`
 
   .nav {
     color: black;
+    text-decoration: none;
   }
 
   .sc-irLvoH {
