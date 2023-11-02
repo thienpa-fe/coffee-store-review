@@ -3,10 +3,10 @@
 import DashboardStyled from './styles';
 import DashboardMyStores from '@/components/DashboardMyStores';
 
-const Dashboard = () => (
+const MyStores = () => (
   <DashboardStyled>
     <DashboardMyStores />
   </DashboardStyled>
 );
 
-export default Dashboard;
+export default MyStores;
