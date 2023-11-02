@@ -1,37 +1,54 @@
 import styled from 'styled-components';
 
 const FooterStyled = styled.div`
+  padding-left: 20px;
   margin-top: 5px;
-  .footer-top {
+  background-color: #6f4e36;
+
+  .ant-typography {
+    margin-top: 5px;
+  }
+
+  .container {
+    padding-top: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-top {
+    margin-right: 20px;
+    @media only screen and (max-width: 375px) {
+      margin-right: 5px;
+    }
   }
 
   .ant-btn {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border: none;
     outline: none;
     &:last-child {
       margin-left: 1px;
     }
+    background-color: #6f4e36;
+    margin-right: 10px;
   }
 
   .icon8 {
     position: absolute;
     left: 0;
     top: 0;
-    margin: 4px;
-  }
-
-  .footer-between {
-    margin-top: 10px;
   }
 
   .footer-bottom {
-    margin-top: 50px;
+    margin-top: 30px;
     color: #808080;
+    padding-bottom: 16px;
+    @media only screen and (max-width: 375px) {
+      margin-top: 20px;
+    }
   }
 `;
 
