@@ -3,12 +3,13 @@ import { Tabs } from 'antd';
 import StatisticTabsStyled from './styles';
 import CoffeeStoreStatistic from '../CoffeeStoreStatistic';
 import ReviewsStatistic from '../ReviewsStatistic';
+import ReactionsStatistic from '../ReactionsStatistic';
 
 const StatisticTabs = () => {
   const statisticTabs = [
     { tabName: 'Coffee Store', data: <CoffeeStoreStatistic /> },
     { tabName: 'Reviews', data: <ReviewsStatistic /> },
-    { tabName: 'Reactions', data: 'content Reactions' },
+    { tabName: 'Reactions', data: <ReactionsStatistic /> },
   ];
 
   return (
