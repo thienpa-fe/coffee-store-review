@@ -12,7 +12,7 @@ const DashboardShareUrlStyled = styled.div`
   }
 
   .generate-btn-available {
-    background: #c7dcfc;
+    background: #14b4c8;
     outline: none;
     padding: 6px 20px;
     font-size: 16px;
@@ -39,6 +39,8 @@ const DashboardShareUrlStyled = styled.div`
 
     &:hover {
       cursor: pointer;
+      background-color: #14b4c8;
+      color: black;
     }
   }
 

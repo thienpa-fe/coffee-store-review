@@ -21,11 +21,13 @@ const SignUpScreenStyled = styled.div`
       font-size: 30px;
     }
   }
+
   .icon-cf {
     position: absolute;
     top: 50px;
     left: 20px;
   }
+
   .input-box {
     display: flex;
   }
@@ -76,6 +78,7 @@ const SignUpScreenStyled = styled.div`
       font-size: 14px;
     }
   }
+
   .row-input {
     display: flex;
     column-gap: 10px;
@@ -83,6 +86,7 @@ const SignUpScreenStyled = styled.div`
       display: flex;
     }
   }
+
   .ant-btn-primary {
     margin-top: 20px;
     height: 60px;
@@ -131,6 +135,7 @@ const SignUpScreenStyled = styled.div`
       margin-top: 0;
     }
   }
+
   .icon8 {
     position: absolute;
     top: 50%;
@@ -156,6 +161,7 @@ const SignUpScreenStyled = styled.div`
       font-size: 16px;
     }
   }
+
   Button > ins {
     font-size: 20px;
     @media only screen and (max-width: 1366px) {
@@ -171,6 +177,7 @@ const SignUpScreenStyled = styled.div`
       font-size: 16px;
     }
   }
+
   .icon-login-container {
     display: flex;
     justify-content: space-around;

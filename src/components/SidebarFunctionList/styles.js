@@ -5,6 +5,12 @@ const SidebarFunctionsListStyled = styled.div`
   flex-grow: 2;
   padding: 20px 0;
 
+  .jwSyBi {
+    &:hover {
+      background-color: #14b4c8;
+    }
+  }
+
   .nav {
     color: black;
     text-decoration: none;
