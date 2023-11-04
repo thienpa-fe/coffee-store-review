@@ -1,12 +1,11 @@
 'use client';
 
-import DashboardStyled from './styles';
 import DashboardMyStores from '@/components/DashboardMyStores';
 
 const MyStores = () => (
-  <DashboardStyled>
+  <div>
     <DashboardMyStores />
-  </DashboardStyled>
+  </div>
 );
 
 export default MyStores;

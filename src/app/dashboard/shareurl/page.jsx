@@ -1,12 +1,11 @@
 'use client';
 
-import ShareUrlStyled from './styles';
 import DashboardShareUrl from '@/components/DashboardShareUrl';
 
 const ShareUrl = () => (
-  <ShareUrlStyled>
+  <div>
     <DashboardShareUrl />
-  </ShareUrlStyled>
+  </div>
 );
 
 export default ShareUrl;
