@@ -11,10 +11,6 @@ const DashboardSidebarFooterStyled = styled.div`
     color: black;
     text-decoration: none;
   }
-
-  .sc-irLvoH {
-    color: black;
-  }
 `;
 
 export default DashboardSidebarFooterStyled;
