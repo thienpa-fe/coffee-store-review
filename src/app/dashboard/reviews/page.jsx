@@ -1,7 +1,5 @@
 'use client';
 
-import DashboardSidebar from '@/components/DashboardSidebar';
-
-const Reviews = () => <div></div>;
+const Reviews = () => <></>;
 
 export default Reviews;
