@@ -1,5 +1,14 @@
 'use client';
 
-const settings = () => <div>settings</div>;
+import DashboardSettings from '@/components/DashboardSettings';
+import SettingsStyled from './styles';
+import DashboardSidebar from '@/components/DashboardSidebar';
 
-export default settings;
+const Settings = () => (
+  <SettingsStyled>
+    <DashboardSidebar />
+    <DashboardSettings />
+  </SettingsStyled>
+);
+
+export default Settings;

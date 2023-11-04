@@ -1,4 +1,8 @@
 'use client';
 
-const myProfle = () => <div>myProfles</div>;
-export default myProfle;
+import DashboardSidebar from '@/components/DashboardSidebar';
+import MyProfileStyled from './styles';
+
+const MyProfile = () => <MyProfileStyled></MyProfileStyled>;
+
+export default MyProfile;

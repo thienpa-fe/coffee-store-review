@@ -5,6 +5,11 @@ const SidebarFunctionsListStyled = styled.div`
   flex-grow: 2;
   padding: 20px 0;
 
+  .nav {
+    color: black;
+    text-decoration: none;
+  }
+
   @media only screen and (max-width: 1024px) {
     margin-top: 20px;
     padding: 10px 0;
