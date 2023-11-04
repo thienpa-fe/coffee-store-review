@@ -1,12 +1,21 @@
 import styled from 'styled-components';
 
 const FooterStyled = styled.div`
+  width: calc(100% + 160px);
+  margin-left: -80px;
   padding-left: 20px;
-  margin-top: 5px;
+  margin-bottom: -20px;
+  margin-top: 40px;
   background-color: #6f4e36;
+  @media only screen and (max-width: 375px) {
+    width: calc(100% + 40px);
+    margin-left: -40px;
+    padding-left: 20px;
+  }
 
   .ant-typography {
     margin-top: 5px;
+    color: white;
   }
 
   .container {
@@ -14,6 +23,7 @@ const FooterStyled = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 40px;
   }
 
   .footer-top {
@@ -44,9 +54,11 @@ const FooterStyled = styled.div`
 
   .footer-bottom {
     margin-top: 30px;
-    color: #808080;
+    margin-left: 20px;
+    color: white;
     padding-bottom: 16px;
     @media only screen and (max-width: 375px) {
+      display: block;
       margin-top: 20px;
     }
   }
