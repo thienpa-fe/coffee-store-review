@@ -1,5 +1,8 @@
 'use client';
 
-const reviews = () => <div>reviews</div>;
+import ReviewsStyled from './styles';
+import DashboardSidebar from '@/components/DashboardSidebar';
 
-export default reviews;
+const Reviews = () => <ReviewsStyled></ReviewsStyled>;
+
+export default Reviews;

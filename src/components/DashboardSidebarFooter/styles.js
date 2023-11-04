@@ -6,6 +6,15 @@ const DashboardSidebarFooterStyled = styled.div`
   left: 0;
   border-top: 1px solid gray;
   width: 100%;
+
+  .nav {
+    color: black;
+    text-decoration: none;
+  }
+
+  .sc-irLvoH {
+    color: black;
+  }
 `;
 
 export default DashboardSidebarFooterStyled;
