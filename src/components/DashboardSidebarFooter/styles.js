@@ -11,19 +11,6 @@ const DashboardSidebarFooterStyled = styled.div`
     color: black;
     text-decoration: none;
   }
-
-  .YbevK {
-    &:hover {
-      background-color: #14b4c8;
-    }
-  }
-
-  .sc-irLvoH {
-    color: black;
-    &:hover {
-      background-color: #14b4c8;
-    }
-  }
 `;
 
 export default DashboardSidebarFooterStyled;
