@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    esmExternals: 'loose',
+    serverComponentsExternalPackages: ['mongoose'],
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
