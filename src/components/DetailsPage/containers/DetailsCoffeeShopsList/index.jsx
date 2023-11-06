@@ -1,5 +1,5 @@
+import DetailsCoffeeShopCard from '@/components/DetailsPage/DetailsCoffeeShopCard';
 import DetailsCoffeeShopsListStyled from './styles';
-import DetailsCoffeeShopCard from '../../DetailsCoffeeShopCard';
 
 const DetailsCoffeeShopsList = () => (
   <DetailsCoffeeShopsListStyled>

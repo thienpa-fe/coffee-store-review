@@ -1,9 +1,8 @@
-import React from 'react';
+import CitysBarChart from '@/components/Dashboard/CitysBarChart';
+import CoffeeStoresPieChart from '@/components/Dashboard/CoffeeStoresPieChart';
 import { Card, Col, Row, Statistic } from 'antd';
-import CoffeeStoresPieChart from '../../CoffeeStoresPieChart';
 import CountUp from 'react-countup';
 import CoffeeStoreStatisticContainerStyled from './styles';
-import CitysBarChart from '../../CitysBarChart';
 
 const CoffeeStoreStatisticContainer = () => {
   const formatter = (value) => <CountUp end={value} separator="," />;

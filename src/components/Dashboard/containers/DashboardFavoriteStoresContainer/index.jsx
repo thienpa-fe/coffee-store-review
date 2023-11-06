@@ -1,5 +1,5 @@
-import Title from '../../common/Title';
-import FavoriteStoresDataTable from '../../FavoriteStoresDataTable';
+import FavoriteStoresDataTable from '@/components/Dashboard/FavoriteStoresDataTable';
+import Title from '@/components/Dashboard/common/Title';
 import DashboardFavoriteStoresContainerStyled from './styles';
 
 const DashboardFavoriteStoresContainer = () => (

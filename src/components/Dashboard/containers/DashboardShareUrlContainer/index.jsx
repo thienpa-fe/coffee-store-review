@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import Title from '../../common/Title';
-import SelectInputCoffeeStore from '../../SelectInputCoffeeStore';
+import CopyNotification from '@/components/Dashboard/CopyNotification';
+import SelectInputCoffeeStore from '@/components/Dashboard/SelectInputCoffeeStore';
+import Title from 'antd/es/skeleton/Title';
+import { useState } from 'react';
 import { AiOutlineCopy } from 'react-icons/ai';
 import { HiLightBulb } from 'react-icons/hi';
-import CopyNotification from '../../CopyNotification';
 import DashboardShareUrlContainerStyled from './styles';
 
 const DashboardShareUrlContainer = () => {

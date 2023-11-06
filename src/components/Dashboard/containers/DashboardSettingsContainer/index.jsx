@@ -1,6 +1,6 @@
-import Title from '../../common/Title';
+import Title from '@/components/Dashboard/common/Title';
+import { Form, Select } from 'antd';
 import DashboardSettingsContainerStyled from './styles';
-import { Select, Form } from 'antd';
 
 const DashboardSettingsContainer = () => (
   <DashboardSettingsContainerStyled>

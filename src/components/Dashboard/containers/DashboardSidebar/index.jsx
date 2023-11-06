@@ -1,8 +1,7 @@
-import React from 'react';
-import DashboardSidebarStyled from './styles';
+import DashboardSidebarFooter from '@/components/Dashboard/DashboardSidebarFooter';
+import UserLoginInfo from '@/components/Dashboard/UserLoginInfo';
 import SidebarFunctionsList from '../SidebarFunctionList';
-import DashboardSidebarFooter from '../../DashboardSidebarFooter';
-import UserLoginInfo from '../../UserLoginInfo';
+import DashboardSidebarStyled from './styles';
 
 const DashboardSidebar = () => (
   <DashboardSidebarStyled>

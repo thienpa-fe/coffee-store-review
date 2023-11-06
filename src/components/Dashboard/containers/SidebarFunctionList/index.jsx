@@ -1,11 +1,11 @@
-import SidebarFunctionsListStyled from './styles';
-import { HiBuildingStorefront, HiMiniStar } from 'react-icons/hi2';
-import { MdRateReview } from 'react-icons/md';
-import { BsPersonCircle } from 'react-icons/bs';
-import { LiaChartBar } from 'react-icons/lia';
-import { FaShare } from 'react-icons/fa6';
+import SidebarFunction from '@/components/Dashboard/SidebarFunction';
 import Link from 'next/link';
-import SidebarFunction from '../../SidebarFunction';
+import { BsPersonCircle } from 'react-icons/bs';
+import { FaShare } from 'react-icons/fa6';
+import { HiBuildingStorefront, HiMiniStar } from 'react-icons/hi2';
+import { LiaChartBar } from 'react-icons/lia';
+import { MdRateReview } from 'react-icons/md';
+import SidebarFunctionsListStyled from './styles';
 
 const SidebarFunctionsList = () => (
   <SidebarFunctionsListStyled>

@@ -1,6 +1,6 @@
-import MyStoresDataTable from '../../MyStoresDataTable';
-import Title from '../../common/Title';
+import MyStoresDataTable from '@/components/Dashboard/MyStoresDataTable';
 import DashboardMyStoresContainerStyled from './styles';
+import Title from '@/components/Dashboard/common/Title';
 
 const DashboardMyStoresContainer = () => (
   <DashboardMyStoresContainerStyled>

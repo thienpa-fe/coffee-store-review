@@ -2,6 +2,9 @@
   "name": "coffee-store-review",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "next-js-directory"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
