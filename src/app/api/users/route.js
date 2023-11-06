@@ -2,6 +2,15 @@ import connect from '@/lib/mongodb/connect';
 import User from '@/models/User';
 import { NextResponse } from 'next/server';
 
+/**
+ * @swagger
+ * /api/users:
+ *   get:
+ *     description: Returns the hello world
+ *     responses:
+ *       200:
+ *         description: Hello World!
+ */
 export const GET = async () => {
   try {
     await connect();

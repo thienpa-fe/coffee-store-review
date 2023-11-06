@@ -1,6 +1,7 @@
+import { REQUEST_TIMEOUT } from '@/utils/constants';
 import axios from 'axios';
 
-const BASE_API_URL = '';
+const BASE_API_URL = process.env.BASE_URL;
 
 export const request = axios.create({
   baseURL: BASE_API_URL,
