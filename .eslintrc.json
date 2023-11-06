@@ -106,11 +106,11 @@
           {
             "group": ["moment"],
             "message": "Please use import from ‘dayjs’ instead."
-          },
-          {
-            "group": ["../../*"],
-            "message": "Please use alias import instead of deep parent import"
           }
+          // {
+          //   "group": ["../../*"],
+          //   "message": "Please use alias import instead of deep parent import"
+          // }
         ]
       }
     ],

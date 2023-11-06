@@ -1,10 +1,10 @@
 'use client';
 
-import DashboardFavoriteStores from '@/components/DashboardFavoriteStores';
+import DashboardFavoriteStoresContainer from '@/components/Dashboard/containers/DashboardFavoriteStoresContainer';
 
 const FavoriteStores = () => (
   <>
-    <DashboardFavoriteStores />
+    <DashboardFavoriteStoresContainer />
   </>
 );
 

@@ -1,10 +1,10 @@
 'use client';
 
-import DashboardShareUrl from '@/components/DashboardShareUrl';
+import DashboardShareUrlContainer from '@/components/Dashboard/containers/DashboardShareUrlContainer';
 
 const ShareUrl = () => (
   <>
-    <DashboardShareUrl />
+    <DashboardShareUrlContainer />
   </>
 );
 

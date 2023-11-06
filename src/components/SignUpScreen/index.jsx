@@ -1,5 +1,5 @@
 import SignUpScreenStyled from './styles';
-import { LogoStyled } from '../HomePageHeaderNavbar/styles';
+import { LogoStyled } from '../HomePage/HomePageHeaderNavbar/styles';
 import { Button, ConfigProvider } from 'antd';
 import Image from 'next/image';
 

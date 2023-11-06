@@ -1,10 +1,10 @@
 'use client';
 
-import DashboardMyStores from '@/components/DashboardMyStores';
+import DashboardMyStoresContainer from '@/components/Dashboard/containers/DashboardMyStoresContainer';
 
 const MyStores = () => (
   <>
-    <DashboardMyStores />
+    <DashboardMyStoresContainer />
   </>
 );
 
