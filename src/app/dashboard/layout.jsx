@@ -1,6 +1,6 @@
 'use client';
 
-import DashboardSidebar from '@/components/DashboardSidebar';
+import DashboardSidebar from '@/components/Dashboard/containers/DashboardSidebar';
 import React from 'react';
 
 const DashboardLayout = ({ children }) => (

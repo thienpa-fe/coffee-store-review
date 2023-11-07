@@ -1,12 +1,10 @@
 'use client';
 
-import DashboardSidebar from '@/components/DashboardSidebar';
-import DashboardStatistic from '@/components/DashboardStatistic';
+import DashboardStatisticContainer from '@/components/Dashboard/containers/DashboardStatisticContainer';
 
 const statistic = () => (
   <>
-    <DashboardSidebar />
-    <DashboardStatistic />
+    <DashboardStatisticContainer />
   </>
 );
 

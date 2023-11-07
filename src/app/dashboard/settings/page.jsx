@@ -1,12 +1,12 @@
 'use client';
 
-import DashboardSettings from '@/components/DashboardSettings';
-import DashboardSidebar from '@/components/DashboardSidebar';
+import DashboardSettingsContainer from '@/components/Dashboard/containers/DashboardSettingsContainer';
+import DashboardSidebar from '@/components/Dashboard/containers/DashboardSidebar';
 
 const Settings = () => (
   <>
     <DashboardSidebar />
-    <DashboardSettings />
+    <DashboardSettingsContainer />
   </>
 );
 
