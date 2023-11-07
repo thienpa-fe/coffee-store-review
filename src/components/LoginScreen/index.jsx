@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { LogoStyled } from '../HomePage/HomePageHeaderNavbar/styles';
+import { LogoStyled } from '@/components/HomePage/HomePageHeaderNavbar/styles';
 import LoginScreenStyled from './styles';
 import { DownOutlined } from '@ant-design/icons';
 import { Button, Dropdown, message, Space, ConfigProvider } from 'antd';
