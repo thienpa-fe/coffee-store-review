@@ -1,5 +1,5 @@
 import HomePageHeaderNavbar from '@/components/HomePage/HomePageHeaderNavbar';
-import { HomePageHeaderStyled } from './styles';
+import HomePageHeaderStyled from './styles';
 import LoginButton from '@/components/HomePage/LoginButton';
 
 const HomePageHeader = () => (

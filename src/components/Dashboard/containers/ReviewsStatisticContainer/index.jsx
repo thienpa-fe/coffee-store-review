@@ -1,7 +1,7 @@
 import { Card, Col, Row, Statistic } from 'antd';
 import CountUp from 'react-countup';
-import CoffeeStoresBarChart from '../CoffeeStoresBarChart';
 import ReviewsStatisticContainerStyled from './styles';
+import CoffeeStoresBarChart from '@/components/Dashboard/CoffeeStoresBarChart';
 
 const ReviewsStatisticContainer = () => {
   const formatter = (value) => <CountUp end={value} separator="," />;

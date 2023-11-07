@@ -1,4 +1,3 @@
-import React from 'react';
 import UserLoginInfoStyled from './styles';
 import Image from 'next/image';
 

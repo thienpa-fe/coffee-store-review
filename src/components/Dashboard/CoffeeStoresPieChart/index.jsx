@@ -1,4 +1,3 @@
-import React, { useCallback, useState } from 'react';
 import { PieChart, Pie, Cell, Legend, ResponsiveContainer } from 'recharts';
 import CoffeeStoresPieChartStyled from './styles';
 import { Card } from 'antd';

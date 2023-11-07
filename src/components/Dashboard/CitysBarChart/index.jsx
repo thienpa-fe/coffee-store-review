@@ -1,4 +1,3 @@
-import React, { PureComponent } from 'react';
 import CitysBarChartStyled from './styles';
 import {
   BarChart,

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SidebarFunctionsListStyled = styled.div`
+const SidebarMainFunctionsListStyled = styled.div`
   margin-top: 40px;
   flex-grow: 2;
   padding: 20px 0;
@@ -29,4 +29,4 @@ const SidebarFunctionsListStyled = styled.div`
   }
 `;
 
-export default SidebarFunctionsListStyled;
+export default SidebarMainFunctionsListStyled;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomePageHeaderStyled = styled.div`
+const HomePageHeaderStyled = styled.div`
   display: flex;
   justify-content: space-between;
 
@@ -9,3 +9,5 @@ export const HomePageHeaderStyled = styled.div`
     position: relative;
   }
 `;
+
+export default HomePageHeaderStyled;

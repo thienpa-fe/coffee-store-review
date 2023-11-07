@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel, Image } from 'antd';
 import ImageCarouselStyled from './styles';
 import { FaAngleRight, FaAngleLeft } from 'react-icons/fa6';

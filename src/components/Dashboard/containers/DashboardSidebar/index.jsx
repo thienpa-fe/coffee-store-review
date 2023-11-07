@@ -1,12 +1,12 @@
-import DashboardSidebarFooter from '@/components/Dashboard/DashboardSidebarFooter';
+import DashboardSidebarFooter from '@/components/Dashboard/containers/DashboardSidebarFooter';
 import UserLoginInfo from '@/components/Dashboard/UserLoginInfo';
-import SidebarFunctionsList from '../SidebarFunctionList';
+import SidebarMainFunctionsList from '../SidebarMainFunctionList';
 import DashboardSidebarStyled from './styles';
 
 const DashboardSidebar = () => (
   <DashboardSidebarStyled>
     <UserLoginInfo />
-    <SidebarFunctionsList />
+    <SidebarMainFunctionsList />
     <DashboardSidebarFooter />
   </DashboardSidebarStyled>
 );

@@ -1,8 +1,7 @@
-import React from 'react';
 import { Tabs } from 'antd';
 import StatisticTabsStyled from './styles';
 import CoffeeStoreStatistic from '../containers/CoffeeStoreStatisticContainer';
-import ReviewsStatistic from '../ReviewsStatisticContainer';
+import ReviewsStatistic from '../containers/ReviewsStatisticContainer';
 import ReactionsStatistic from '../containers/ReactionsStatisticContainer';
 
 const StatisticTabs = () => {

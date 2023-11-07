@@ -1,4 +1,3 @@
-import React, { PureComponent } from 'react';
 import CoffeeStoresBarChartStyled from './styles';
 import { Card } from 'antd';
 import {

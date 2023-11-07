@@ -1,7 +1,7 @@
 import DashboardSidebarFooterStyled from './styles';
-import SidebarFooterFunction from '../SidebarFooterFunction';
 import { AiFillSetting, AiOutlineLogout } from 'react-icons/ai';
 import Link from 'next/link';
+import SidebarFooterFunction from '@/components/Dashboard/SidebarFooterFunction';
 
 const DashboardSidebarFooter = () => (
   <DashboardSidebarFooterStyled>
@@ -11,7 +11,7 @@ const DashboardSidebarFooter = () => (
         content="Settings"
       />
     </Link>
-    <Link href="/dashboard/mystores" className="nav">
+    <Link href="/dashboard/my-stores" className="nav">
       <SidebarFooterFunction
         functionIcon={<AiOutlineLogout />}
         content="Log Out"

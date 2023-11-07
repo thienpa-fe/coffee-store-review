@@ -1,6 +1,5 @@
-import React from 'react';
 import SelectInputCoffeeStoreStyled from './styles';
-import { Select, Tabs } from 'antd';
+import { Select } from 'antd';
 import PropTypes from 'prop-types';
 import storeDataTest from '@/data/StoresDataTest';
 

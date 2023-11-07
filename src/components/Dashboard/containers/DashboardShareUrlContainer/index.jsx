@@ -1,4 +1,4 @@
-import CopyNotification from '@/components/Dashboard/CopyNotification';
+import CopyNotification from '@/components/Dashboard/common/CopyNotification';
 import SelectInputCoffeeStore from '@/components/Dashboard/SelectInputCoffeeStore';
 import Title from 'antd/es/skeleton/Title';
 import { useState } from 'react';

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SidebarFunctionStyled = styled.div`
+const SidebarMainFunctionStyled = styled.div`
   --primary-color: #c7dcfc;
 
   display: flex;
@@ -50,4 +50,4 @@ const SidebarFunctionStyled = styled.div`
   }
 `;
 
-export default SidebarFunctionStyled;
+export default SidebarMainFunctionStyled;

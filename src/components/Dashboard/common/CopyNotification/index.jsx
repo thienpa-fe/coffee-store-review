@@ -1,4 +1,3 @@
-import React from 'react';
 import CopyNotificationStyled from './styles';
 import PropTypes from 'prop-types';
 
