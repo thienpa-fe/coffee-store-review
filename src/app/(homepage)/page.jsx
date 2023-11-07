@@ -1,6 +1,5 @@
 'use client';
 
-import HomePageHeader from '@/components/HomePage/containers/HomePageHeader';
 import HomePageStyled from './styles';
 import Footer from '@/components/HomePage/containers/Footer';
 import ImageCarousel from '@/components/HomePage/ImageCarousel';
@@ -10,7 +9,6 @@ import HomePageCoffeeShopsList from '@/components/HomePage/containers/HomePageCo
 const HomePage = () => (
   <>
     <HomePageStyled>
-      <HomePageHeader />
       <ImageCarousel />
       <Title level={2}>Find somewhere to go?</Title>
       <HomePageCoffeeShopsList />

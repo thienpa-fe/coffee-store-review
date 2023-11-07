@@ -11,7 +11,7 @@ const HomePageStyled = styled.div`
   }
 
   @media only screen and (max-width: 375px) {
-    padding: 50px 20px;
+    padding: 0 20px;
   }
 `;
 
