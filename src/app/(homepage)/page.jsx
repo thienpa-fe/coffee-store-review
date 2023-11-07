@@ -8,13 +8,15 @@ import Title from 'antd/es/typography/Title';
 import HomePageCoffeeShopsList from '@/components/HomePage/containers/HomePageCoffeeShopsList';
 
 const HomePage = () => (
-  <HomePageStyled>
-    <HomePageHeader />
-    <ImageCarousel />
-    <Title level={2}>Find somewhere to go?</Title>
-    <HomePageCoffeeShopsList />
+  <>
+    <HomePageStyled>
+      <HomePageHeader />
+      <ImageCarousel />
+      <Title level={2}>Find somewhere to go?</Title>
+      <HomePageCoffeeShopsList />
+    </HomePageStyled>
     <Footer />
-  </HomePageStyled>
+  </>
 );
 
 export default HomePage;

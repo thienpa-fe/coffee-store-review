@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 const HomePageStyled = styled.div`
-  padding: 20px 80px;
+  padding: 20px 20px 0;
+  max-width: 1280px;
+  margin: 0 auto;
 
   .ant-typography {
     margin-top: 70px;
