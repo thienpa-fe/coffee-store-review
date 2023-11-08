@@ -7,7 +7,6 @@ const DashboardMyStoresContainerStyled = styled.div`
     padding-left: 60px;
   }
 
-
   @media only screen and (max-width: 375px) {
     padding-left: 80px;
     padding-right: 30px;
