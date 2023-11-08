@@ -1,7 +1,8 @@
+import { maxWidthContent } from '@/app/styles/variables';
 import styled from 'styled-components';
 
 const StoreDetailsContainerStyled = styled.div`
-  max-width: 1280px;
+  max-width: ${maxWidthContent};
   margin: 40px auto 0;
   padding: 0 20px;
 

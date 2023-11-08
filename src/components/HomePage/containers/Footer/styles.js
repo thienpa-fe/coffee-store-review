@@ -1,8 +1,7 @@
 import styled from 'styled-components';
+import { maxWidthContent } from '@/app/styles/variables';
 
 const FooterStyled = styled.div`
-  --max-width-footer-content: 1280px;
-
   margin-top: 40px;
   background-color: #6f4e36;
 
@@ -12,7 +11,7 @@ const FooterStyled = styled.div`
   }
 
   .container {
-    max-width: var(--max-width-footer-content);
+    max-width: ${maxWidthContent};
     padding: 20px 20px 0;
     display: flex;
     justify-content: space-between;
@@ -40,7 +39,7 @@ const FooterStyled = styled.div`
   }
 
   .footer-bottom {
-    max-width: var(--max-width-footer-content);
+    max-width: ${maxWidthContent};
     margin: 30px auto 0;
     color: white;
     padding: 0 20px 16px;

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
+import { maxWidthContent } from '@/app/styles/variables';
 
 const HomePageStyled = styled.div`
   padding: 20px 20px 0;
-  max-width: 1280px;
+  max-width: ${maxWidthContent};
   margin: 0 auto;
 
   .ant-typography {

@@ -1,9 +1,10 @@
+import { maxWidthContent } from '@/app/styles/variables';
 import styled from 'styled-components';
 
 const HomePageHeaderStyled = styled.div`
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
+  max-width: ${maxWidthContent};
   margin: 0 auto;
   padding: 20px 20px 0;
 
