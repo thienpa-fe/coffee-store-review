@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 const DashboardShareUrlContainerStyled = styled.div`
-  padding: 30px 60px 30px 280px;
-
   .share-url-area {
     display: grid;
     grid-template-columns: 110px 320px 110px;
