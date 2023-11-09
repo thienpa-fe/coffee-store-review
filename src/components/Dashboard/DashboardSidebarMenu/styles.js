@@ -8,7 +8,7 @@ const DashboardSidebarMenuStyled = styled.div`
   }
 
   .user-login-info {
-    margin: 0 0 20px 20px;
+    margin: 0 0 18px 18px;
   }
 
   .ant-menu-item {
