@@ -8,23 +8,15 @@ const DashboardSidebarMenuStyled = styled.div`
   }
 
   .user-login-info {
-    margin: 20px 0 20px 20px;
-    font-size: 25px;
+    margin: 0 0 20px 20px;
   }
 
   .ant-menu-item {
-    font-size: 30px;
-    font-weight: 700;
     margin-bottom: 20px;
   }
 
   .ant-menu {
     margin-top: 50px;
-  }
-
-  .ant-menu-item-icon {
-    width: 25px;
-    height: 25px;
   }
 
   @media only screen and (max-width: 375px) {

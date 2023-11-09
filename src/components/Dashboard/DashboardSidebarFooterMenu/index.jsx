@@ -29,7 +29,6 @@ const DashboardSidebarFooterMenu = () => {
       <div style={{ display: 'flex' }} className="menu-container">
         <Menu
           style={{
-            width: 320,
             border: 0,
           }}
           defaultSelectedKeys={['1']}

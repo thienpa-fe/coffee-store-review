@@ -60,7 +60,6 @@ const DashboardSidebarMenu = () => {
         <div style={sharedStyle} />
         <Menu
           style={{
-            width: 320,
             border: 0,
           }}
           defaultSelectedKeys={['1']}
