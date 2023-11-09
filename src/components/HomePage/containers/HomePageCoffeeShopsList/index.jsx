@@ -5,37 +5,34 @@ import { Col, Row } from 'antd';
 const HomePageCoffeeShopsList = () => (
   <HomePageCoffeeShopsListStyled>
     <Row gutter={[32, 32]}>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
-        <HomePageCoffeeShopCard />
-      </Col>
-      <Col xxl={{ span: 6 }} xl={{ span: 8 }} lg={{ span: 12 }}>
+      <Col xl={8} lg={12}>
         <HomePageCoffeeShopCard />
       </Col>
     </Row>
