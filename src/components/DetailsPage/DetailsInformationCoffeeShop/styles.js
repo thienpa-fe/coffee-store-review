@@ -1,7 +1,20 @@
 const { default: styled } = require('styled-components');
 
 const DetailsInformationCoffeeShopStyled = styled.div`
-  --primary-margin-top: 10px;
+  .store-address {
+    margin-top: 60px;
+  }
+
+  .store-address,
+  .store-statistics {
+    margin-bottom: 30px;
+  }
+
+  .ant-typography {
+    font-size: 50px;
+  }
+
+  /* --primary-margin-top: 10px;
 
   display: flex;
   justify-content: flex-end;
@@ -55,6 +68,6 @@ const DetailsInformationCoffeeShopStyled = styled.div`
 
   .open-css {
     margin-top: var(--primary-margin-top);
-  }
+  } */
 `;
 export default DetailsInformationCoffeeShopStyled;

@@ -1,11 +1,5 @@
 'use client';
 
-import DashboardLayout from './layout';
-
-const Dashboard = () => (
-  <DashboardLayout>
-    <div></div>
-  </DashboardLayout>
-);
+const Dashboard = () => <></>;
 
 export default Dashboard;

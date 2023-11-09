@@ -1,24 +1,16 @@
-import Image from 'next/image';
 import DetailsInformationCoffeeShopStyled from './styles';
+import Title from 'antd/es/typography/Title';
+import { Divider } from 'antd';
 
 const DetailsInformationCoffeeShop = () => (
   <DetailsInformationCoffeeShopStyled>
-    <div className="infomation-shop">
-      <h1 className="article-title">TITLE COFFEE SHOP </h1>
-      <p className="name-shop">COFFEE SHOP NAME</p>
-      <p className="p-text">Introduction</p>
-      <p className="address">Address:</p>
-      <p className="price-css">Price:</p>
-      <p className="open-css">OPEN: 6h00 - 22h00</p>
+    <Title level={2}>Highland Coffee</Title>
+    <p>32 images</p>
+    <p className="store-address">173 Lê Hồng Phong, Đà Nẵng</p>
+    <div className="store-statistics">
+      3,780 reviews <Divider type="vertical" /> 1,200 reactions
     </div>
-    <section className="coffee-photo">
-      <Image
-        src="https://neohouse.vn/wp-content/uploads/2019/07/thiet-ke-quan-cafe-anh-bia.jpg "
-        alt="coffe-shop.png"
-        width={1000}
-        height={1000}
-      />
-    </section>
+    <p>Open: 07:00 - 22:00</p>
   </DetailsInformationCoffeeShopStyled>
 );
 
