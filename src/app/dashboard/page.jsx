@@ -1,11 +1,7 @@
 'use client';
 
-import DashboardLayout from './layout';
+import MyStores from '@/app/dashboard/my-stores/page';
 
-const Dashboard = () => (
-  <DashboardLayout>
-    <div></div>
-  </DashboardLayout>
-);
+const Dashboard = () => <MyStores />;
 
 export default Dashboard;
