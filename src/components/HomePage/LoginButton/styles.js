@@ -51,28 +51,9 @@ const LoginButtonStyled = styled.div`
   }
 
   @media only screen and (max-width: 375px) {
-    .login-btn {
-      padding: 5px 10px;
-      font-size: 16px;
-      position: absolute;
-      right: 0;
-      top: -30px;
-    }
-
+    .login-btn,
     .user-login-info {
-      position: absolute;
-      right: 0;
-      top: -30px;
-
-      & > .avatar-user-login {
-        width: 25px;
-        height: 25px;
-      }
-
-      & > .user-name {
-        font-weight: bold;
-        font-size: 16px;
-      }
+      margin-top: 20px;
     }
   }
 `;
