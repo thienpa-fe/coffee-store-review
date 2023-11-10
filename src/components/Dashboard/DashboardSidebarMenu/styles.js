@@ -11,18 +11,6 @@ const DashboardSidebarMenuStyled = styled.div`
     margin: 0 0 18px 18px;
   }
 
-  .ant-menu-item {
-    margin-bottom: 20px;
-    @media only screen and (max-width: 1366px) {
-      font-size: 25px;
-      font-weight: 700;
-    }
-    @media only screen and (max-width: 1024px) {
-      font-size: 20px;
-      font-weight: 700;
-    }
-  }
-
   .ant-menu {
     margin-top: 50px;
   }
