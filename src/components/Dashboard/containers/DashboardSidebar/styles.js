@@ -4,14 +4,20 @@ const DashboardSidebarstyled = styled.div`
   border-right: 1px solid gray;
   height: 100vh;
   padding: 30px 0 0 10px;
-  position: fixed;
   display: flex;
+  position: fixed;
   flex-direction: column;
   justify-content: space-between;
   overflow-y: scroll;
+  z-index: 1;
 
   &::-webkit-scrollbar {
     width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b;
+    border-radius: 5px;
   }
 
   @media only screen and (max-width: 1366px) {
