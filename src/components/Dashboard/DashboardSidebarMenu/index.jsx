@@ -8,6 +8,7 @@ import { LiaChartBar } from 'react-icons/lia';
 import { FaShare } from 'react-icons/fa6';
 import DashboardSidebarMenuStyled from '@/components/Dashboard/DashboardSidebarMenu/styles';
 import Link from 'next/link';
+import { AiFillSetting, AiOutlineLogout } from 'react-icons/ai';
 
 function getItem(label, key, icon, children) {
   return {
@@ -20,7 +21,7 @@ function getItem(label, key, icon, children) {
 const items = [
   getItem(
     <Link href="/dashboard/my-stores">My Stores</Link>,
-    '1',
+    '/dashboard/my-stores',
     <HiBuildingStorefront />,
   ),
   getItem(
@@ -44,6 +45,11 @@ const items = [
     <LiaChartBar />,
   ),
   getItem(<Link href="/dashboard/share-url">Share</Link>, '6', <FaShare />),
+  getItem(
+    <Link href="/dashboard/settings">Settings</Link>,
+    '/dashboard/settings',
+    <AiFillSetting />,
+  ),
 ];
 
 const DashboardSidebarMenu = () => {

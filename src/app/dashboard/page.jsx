@@ -2,10 +2,6 @@
 
 import DashboardLayout from './layout';
 
-const Dashboard = () => (
-  <DashboardLayout>
-    <div></div>
-  </DashboardLayout>
-);
+const Dashboard = () => <div></div>;
 
 export default Dashboard;

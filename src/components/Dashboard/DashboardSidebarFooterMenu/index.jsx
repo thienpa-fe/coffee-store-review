@@ -12,14 +12,7 @@ function getItem(label, key, icon, children) {
     label,
   };
 }
-const items = [
-  getItem(
-    <Link href="/dashboard/settings">Settings</Link>,
-    '1',
-    <AiFillSetting />,
-  ),
-  getItem(<Link href="/dashboard">Log Out</Link>, '2', <AiOutlineLogout />),
-];
+const items = [getItem('Log Out', '/dashboard', <AiOutlineLogout />)];
 
 const DashboardSidebarFooterMenu = () => {
   const [mode, setMode] = useState('inline');
@@ -31,8 +24,6 @@ const DashboardSidebarFooterMenu = () => {
           style={{
             border: 0,
           }}
-          defaultSelectedKeys={['1']}
-          defaultOpenKeys={['sub1']}
           mode={mode}
           theme={theme}
           items={items}
