@@ -6,10 +6,10 @@ import { Col, Row } from 'antd';
 const DashboardLayout = ({ children }) => (
   <div>
     <Row>
-      <Col xl={5} lg={5} md={6} xs={6}>
+      <Col xxl={4} xl={5} lg={6}>
         <DashboardSidebar />
       </Col>
-      <Col xl={19} lg={19} md={18} xs={18}>
+      <Col xxl={20} xl={19} lg={18}>
         {children}
       </Col>
     </Row>

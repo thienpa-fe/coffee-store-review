@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const CoffeeStoreStatisticContainerStyled = styled.div`
   margin-top: 50px;
+  padding: 0;
 
   .your-stores-statistic {
     display: flex;
