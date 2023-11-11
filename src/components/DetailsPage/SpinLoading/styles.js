@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const SpinLoadingStyled = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin: 10px 0;
 
   .content {
     margin-left: 10px;
