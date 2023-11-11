@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 const DashboardSettingsContainerStyled = styled.div`
-  padding: 30px;
-
+  padding: 30px 30px 30px 60px;
   .ant-form-item {
     margin-top: 100px;
   }
