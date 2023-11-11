@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const DashboardFavoriteStoresContainerStyled = styled.div`
-  padding: 30px;
+  padding: 30px 30px 30px 60px;
 
   @media only screen and (max-width: 1366px) {
     padding-left: 60px;
