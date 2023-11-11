@@ -1,10 +1,10 @@
 'use client';
 
-import MyStores from '@/app/dashboard/my-stores/page';
+import DashboardMyStoresContainer from '@/components/Dashboard/containers/DashboardMyStoresContainer';
 
 const Dashboard = () => (
   <>
-    <MyStores />
+    <DashboardMyStoresContainer />
   </>
 );
 

@@ -20,7 +20,7 @@ function getItem(label, key, icon, children) {
 }
 const items = [
   getItem(
-    <Link href="/dashboard/my-stores">My Stores</Link>,
+    <Link href="/dashboard">My Stores</Link>,
     '1',
     <HiBuildingStorefront />,
   ),
