@@ -1,12 +1,13 @@
 {
   "name": "coffee-store-review",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --fix",
     "pretty": "prettier --check .",
     "postinstall": "husky install",
     "prepare": "husky install"
@@ -14,6 +15,8 @@
   "dependencies": {
     "antd": "^5.10.0",
     "axios": "^1.5.1",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
     "mongoose": "^8.0.0",
     "next": "13.5.4",
     "next-swagger-doc": "^0.4.0",

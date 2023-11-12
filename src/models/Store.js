@@ -1,34 +1,35 @@
 import COLLECTIONS from '@/models';
+import { LocationSchema } from '@/models/sub/Location';
 import { PriceRangeSchema } from '@/models/sub/PriceRange';
 import { WorkingTimeSchema } from '@/models/sub/WorkingTime';
 import { Schema, model, models } from 'mongoose';
 
 const StoreSchema = new Schema(
   {
-    id: {
-      type: String,
-      require: true,
-    },
     name: {
       type: String,
-      require: true,
+      required: true,
     },
     address: {
       type: String,
-      require: true,
+      required: true,
     },
 
     allowReview: {
       type: Boolean,
-      require: true,
+      required: true,
     },
     allowReact: {
       type: Boolean,
-      require: true,
+      required: true,
     },
     description: {
       type: String,
       max: 300,
+    },
+    location: {
+      type: LocationSchema,
+      required: true,
     },
     workingTime: WorkingTimeSchema,
     priceRange: PriceRangeSchema,
