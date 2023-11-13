@@ -90,6 +90,7 @@ export const PUT = async (request) => {
     existingStore.overwrite(payload);
     await existingStore.save();
     const updatedStoresList = await Store.find();
+    disconnect();
     return NextResponse.json(
       {
         data: updatedStoresList,
