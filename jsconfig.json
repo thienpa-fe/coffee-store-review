@@ -4,10 +4,12 @@
     "moduleResolution": "node",
     "jsx": "react-jsx",
     "checkJs": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "target": "ES5",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/utils/*": ["./src/utils/*"]
     }
   }
 }
