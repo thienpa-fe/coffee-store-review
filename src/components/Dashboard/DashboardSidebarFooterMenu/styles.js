@@ -1,10 +1,6 @@
 import { styled } from 'styled-components';
 
 const DashboardSidebarFooterMenuStyled = styled.div`
-  .ant-menu-item {
-    margin-bottom: 20px;
-  }
-
   .ant-menu {
     margin-top: 50px;
     border: none;

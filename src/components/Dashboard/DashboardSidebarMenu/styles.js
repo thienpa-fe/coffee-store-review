@@ -11,10 +11,6 @@ const DashboardSidebarMenuStyled = styled.div`
     margin: 0 0 18px 18px;
   }
 
-  .ant-menu-item {
-    margin-bottom: 20px;
-  }
-
   .ant-menu {
     margin-top: 50px;
   }
