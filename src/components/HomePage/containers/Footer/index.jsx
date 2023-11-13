@@ -30,7 +30,7 @@ const Footer = () => (
     </div>
 
     <div className="footer-bottom">
-      <span className="footer-bottom">
+      <span>
         Sign 2022. This is made with &hearts; by Thien Pham, Tam Phan and Canh
         Tran
       </span>
