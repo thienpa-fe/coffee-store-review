@@ -1,11 +1,13 @@
 import { Modal } from 'antd';
-import { ExclamationCircleFilled } from '@ant-design/icons';
+import ConfirmModalStyled from '@/components/Dashboard/common/ConfirmModal/styles';
 
-const ConfirmModal = ({ setIsModalOpen, title, content, okText }) => {
-  const { confirm } = Modal;
-  const showModal = () => {
-    setIsModalOpen(true);
-  };
+const ConfirmModal = ({
+  setIsModalOpen,
+  title,
+  content,
+  okText,
+  isModalOpen,
+}) => {
   const handleOk = () => {
     setIsModalOpen(false);
   };
@@ -13,18 +15,19 @@ const ConfirmModal = ({ setIsModalOpen, title, content, okText }) => {
     setIsModalOpen(false);
   };
 
-  confirm({
-    title: title,
-    icon: <ExclamationCircleFilled />,
-    content: content,
-    onOk() {
-      handleOk();
-    },
-    onCancel() {
-      handleCancel();
-    },
-    okText: okText,
-  });
+  return (
+    <ConfirmModalStyled>
+      <Modal
+        title={title}
+        open={isModalOpen}
+        onOk={handleOk}
+        onCancel={handleCancel}
+        okText={okText}
+      >
+        <p>{content}</p>
+      </Modal>
+    </ConfirmModalStyled>
+  );
 };
 
 export default ConfirmModal;

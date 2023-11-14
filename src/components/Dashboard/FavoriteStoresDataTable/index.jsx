@@ -47,15 +47,14 @@ const FavoriteStoresDataTable = () => {
           )}
         />
       </Table>
-      {isModalOpen && (
-        <ConfirmModal
-          setIsModalOpen={setIsModalOpen}
-          isModalOpen={isModalOpen}
-          title="Are you sure you want to delete this store from favorite list?"
-          content="Coffee store's name"
-          okText="Yes"
-        />
-      )}
+
+      <ConfirmModal
+        setIsModalOpen={setIsModalOpen}
+        isModalOpen={isModalOpen}
+        title="Are you sure you want to delete this store from favorite list?"
+        content="Coffee store's name"
+        okText="Yes"
+      />
     </FavoriteStoresDataTableStyled>
   );
 };
