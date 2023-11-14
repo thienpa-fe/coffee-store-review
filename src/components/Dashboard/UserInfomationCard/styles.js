@@ -1,0 +1,45 @@
+import styled from 'styled-components';
+
+const UserInformationCardStyled = styled.div`
+  margin-top: 50px;
+
+  .ant-card {
+    width: 100%;
+
+    .ant-card-body {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+
+  .ant-typography > .ant-btn {
+    padding: 0 !important;
+    border: none !important;
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+
+    .edit-icon {
+      height: 100%;
+      width: 100%;
+      color: #4096ff;
+    }
+  }
+
+  .ant-avatar {
+    margin-right: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .ant-card-body {
+      flex-direction: column;
+    }
+  }
+`;
+
+export default UserInformationCardStyled;
