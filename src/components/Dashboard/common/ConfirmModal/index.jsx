@@ -1,5 +1,6 @@
 import { Modal } from 'antd';
 import ConfirmModalStyled from '@/components/Dashboard/common/ConfirmModal/styles';
+import { BsFillExclamationCircleFill } from 'react-icons/bs';
 
 const ConfirmModal = ({
   setIsModalOpen,
@@ -25,6 +26,7 @@ const ConfirmModal = ({
         okText={okText}
       >
         <p>{content}</p>
+        <BsFillExclamationCircleFill className="exclamation-icon" />
       </Modal>
     </ConfirmModalStyled>
   );
