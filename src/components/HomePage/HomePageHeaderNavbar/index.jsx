@@ -3,7 +3,10 @@ import Link from 'next/link';
 
 const HomePageHeaderNavbar = () => (
   <HomePageHeaderNavbarStyled>
-    <LogoStyled src="/images/cf-icon.png" alt="logo.png" />
+    <Link href="/">
+      <LogoStyled src="/images/cf-icon.png" alt="logo.png" />
+    </Link>
+
     <ul className="navbar-list">
       <li>
         <Link href="/" className="navbar-item">
