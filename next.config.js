@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: false,
   experimental: {
-    externalDir: true,
+    esmExternals: 'loose',
+    serverComponentsExternalPackages: ['mongoose'],
   },
   images: {
     formats: ['image/avif', 'image/webp'],

@@ -1,10 +1,10 @@
 'use client';
 
-import HomePageStyled from './styles';
-import Footer from '@/components/HomePage/containers/Footer';
 import ImageCarousel from '@/components/HomePage/ImageCarousel';
-import Title from 'antd/es/typography/Title';
+import Footer from '@/components/HomePage/containers/Footer';
 import HomePageCoffeeShopsList from '@/components/HomePage/containers/HomePageCoffeeShopsList';
+import Title from 'antd/es/typography/Title';
+import HomePageStyled from './styles';
 
 const HomePage = () => (
   <>
