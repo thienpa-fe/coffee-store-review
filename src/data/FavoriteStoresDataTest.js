@@ -1,3 +1,4 @@
+import ConfirmModal from '@/components/Dashboard/common/ConfirmModal';
 import { Space } from 'antd';
 import { FaTrashCan } from 'react-icons/fa6';
 
@@ -25,19 +26,6 @@ export const columns = [
     dataIndex: 'owner',
     key: 'owner',
     width: '15%',
-  },
-  {
-    title: 'Action',
-    key: 'action',
-    render: (_, record) => (
-      <Space size="middle">
-        <a>
-          <FaTrashCan />
-        </a>
-      </Space>
-    ),
-    align: 'center',
-    width: 120,
   },
 ];
 
