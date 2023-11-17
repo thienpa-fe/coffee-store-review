@@ -13,20 +13,6 @@ const UserInformationCardStyled = styled.div`
     }
   }
 
-  .ant-typography > .ant-btn {
-    padding: 0 !important;
-    border: none !important;
-    margin-left: 10px;
-    height: 25px;
-    width: 25px;
-
-    .edit-icon {
-      height: 100%;
-      width: 100%;
-      color: #4096ff;
-    }
-  }
-
   .ant-avatar {
     margin-right: 20px;
 
