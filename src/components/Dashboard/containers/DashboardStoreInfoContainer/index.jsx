@@ -2,6 +2,7 @@ import DashboardStoreInfoContainerStyled from '@/components/Dashboard/containers
 import {
   Button,
   Col,
+  Form,
   Input,
   InputNumber,
   Row,
@@ -9,7 +10,6 @@ import {
   Switch,
   TimePicker,
 } from 'antd';
-import Form from 'antd/es/form';
 import TextArea from 'antd/es/input/TextArea';
 import { useState } from 'react';
 
