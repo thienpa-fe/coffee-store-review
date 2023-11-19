@@ -11,3 +11,16 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+.ant-modal-content {
+  padding-left: 50px !important;
+  width: 500px !important;
+}
+
+.exclamation-icon {
+  position: absolute;
+  left: 20px;
+  top: 21px;
+  font-size: 24px;
+  color: #faad14;
+}

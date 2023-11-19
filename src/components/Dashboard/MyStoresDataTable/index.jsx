@@ -7,23 +7,15 @@ import { columns, data } from '@/data/MyStoresDataTest';
 const MyStoresDataTable = () => (
   <MyStoresDataTableStyled>
     <div className="row-bar">
-      <ConfigProvider
-        theme={{
-          token: {
-            colorPrimary: '#14b4c8',
-          },
-        }}
-      >
-        <div className="search">
-          <Space.Compact>
-            <Input defaultValue="" placeholder="Search" />
-          </Space.Compact>
-          <BsSearch className="search-icon" />
-        </div>
-        <Space>
-          <Button>+ Add new store</Button>
-        </Space>
-      </ConfigProvider>
+      <div className="search">
+        <Space.Compact>
+          <Input defaultValue="" placeholder="Search" />
+        </Space.Compact>
+        <BsSearch className="search-icon" />
+      </div>
+      <Space>
+        <Button>+ Add new store</Button>
+      </Space>
     </div>
     <Table
       columns={columns}
