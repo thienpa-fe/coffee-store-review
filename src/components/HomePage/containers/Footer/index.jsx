@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import Title from 'antd/es/typography/Title';
 
 const Footer = () => (
-  <FooterStyled>
+  <FooterStyled id="footer">
     <div className="container">
       <Title level={3}>Coffee Store Review</Title>
       <div className="footer-top">
