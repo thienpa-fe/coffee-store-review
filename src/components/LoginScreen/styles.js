@@ -180,19 +180,16 @@ const LoginScreenStyled = styled.div`
     }
   }
 
-  .btn {
-    margin-top: 250px;
-    text-align: end;
+  .select-menu {
+    margin-top: 130px;
+    position: absolute;
+    right: 0;
     @media only screen and (max-width: 1366px) {
       margin-top: 90px;
     }
     @media only screen and (max-width: 1024px) {
       margin-top: 50px;
     }
-  }
-  .ant-dropdown-trigger {
-    position: absolute;
-    right: 0;
   }
 `;
 

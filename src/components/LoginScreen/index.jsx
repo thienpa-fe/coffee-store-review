@@ -1,23 +1,21 @@
 import Image from 'next/image';
 import { LogoStyled } from '@/components/HomePage/HomePageHeaderNavbar/styles';
 import LoginScreenStyled from './styles';
-import { DownOutlined } from '@ant-design/icons';
-import { Button, Dropdown, message, Space, ConfigProvider } from 'antd';
+import { Button, ConfigProvider, Select } from 'antd';
 
-const handleMenuClick = (e) => {
-  message.info('Click on menu item.');
-};
-
-const items = [
+const selectMenu = [
   {
+    value: 'Homepage',
+    label: 'Homepage',
+  },
+  {
+    value: 'Dashboard',
     label: 'Dashboard',
-    key: '1',
   },
 ];
 
-const menuProps = {
-  items,
-  onClick: handleMenuClick,
+const handleChange = (value) => {
+  console.log(`selected ${value}`);
 };
 
 const LoginScreen = () => (
@@ -69,18 +67,13 @@ const LoginScreen = () => (
             />
           </Button>
         </div>
-        <div className="btn">
-          <Space wrap>
-            <Dropdown menu={menuProps}>
-              <Button>
-                <Space>
-                  Hompage
-                  <DownOutlined />
-                </Space>
-              </Button>
-            </Dropdown>
-          </Space>
-        </div>
+
+        <Select
+          className="select-menu"
+          defaultValue="Homepage"
+          onChange={handleChange}
+          options={selectMenu}
+        />
       </form>
     </div>
     <LogoStyled src="/images/cf-icon.png" alt="logo.png" className="icon-cf" />
